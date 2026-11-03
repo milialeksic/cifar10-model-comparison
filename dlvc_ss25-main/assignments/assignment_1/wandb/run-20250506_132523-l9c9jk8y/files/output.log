@@ -1,0 +1,63 @@
+[Training] Epoch 0: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [01:13<00:00,  4.24it/s]
+[Validation] Epoch 0: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 79/79 [00:13<00:00,  5.80it/s]
+
+------- Training epoch results start -------
+
+______epoch 0
+Train loss: 1.7161
+Train accuracy: 0.3718
+Train per-class accuracy: 0.3719
+Accuracy for class: plane  is 44.63%
+Accuracy for class: car    is 47.62%
+Accuracy for class: bird   is 21.54%
+Accuracy for class: cat    is 22.52%
+Accuracy for class: deer   is 27.25%
+Accuracy for class: dog    is 30.16%
+Accuracy for class: frog   is 43.31%
+Accuracy for class: horse  is 39.65%
+Accuracy for class: ship   is 51.39%
+Accuracy for class: truck  is 43.84%
+
+------- Training epoch results end -------
+[Training] Epoch 1:  15%|█████████████████▍                                                                                                | 48/313 [00:31<02:52,  1.54it/s]
+
+
+------- Validation epoch results start -------
+
+______epoch 0
+Validation loss: 1.4826
+Validation accuracy: 0.4653
+Validation per class accuracy: 0.4646
+Accuracy for class: plane  is 0.42
+Accuracy for class: car    is 0.61
+Accuracy for class: bird   is 0.16
+Accuracy for class: cat    is 0.30
+Accuracy for class: deer   is 0.57
+Accuracy for class: dog    is 0.19
+Accuracy for class: frog   is 0.45
+Accuracy for class: horse  is 0.59
+Accuracy for class: ship   is 0.78
+Accuracy for class: truck  is 0.59
+
+------- Validation epoch results end -------
+
+New best model has been saved to ./saved_models/vit_model/default//ResNet_model_best.pth (PCAcc: 0.4646)
+Training Epochs:   2%|██▎                                                                                                                 | 1/50 [01:58<1:37:00, 118.78s/it]
+Traceback (most recent call last):
+  File "C:\Users\aleks\milica\master_tuw\master_tuw\2_semester\dl_in_vc\DL_assignment1\dlvc_ss25-main\assignments\assignment_1\train_yourViT.py", line 70, in <module>
+    train(args.data_dir,regularization_mode = "default")
+  File "C:\Users\aleks\milica\master_tuw\master_tuw\2_semester\dl_in_vc\DL_assignment1\dlvc_ss25-main\assignments\assignment_1\train_yourViT.py", line 60, in train
+    trainer.train()
+  File "C:\Users\aleks\milica\master_tuw\master_tuw\2_semester\dl_in_vc\DL_assignment1\dlvc_ss25-main\assignments\assignment_1\assignment_1_code\trainer.py", line 252, in train
+    train_loss, train_acc, train_pcacc = self._train_epoch(epoch)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aleks\milica\master_tuw\master_tuw\2_semester\dl_in_vc\DL_assignment1\dlvc_ss25-main\assignments\assignment_1\assignment_1_code\trainer.py", line 142, in _train_epoch
+    loss.backward()
+  File "C:\Users\aleks\milica\master_tuw\master_tuw\2_semester\dl_in_vc\DL_assignment1\dlvc_ss25-main\assignments\assignment_1\.venv\Lib\site-packages\torch\_tensor.py", line 626, in backward
+    torch.autograd.backward(
+  File "C:\Users\aleks\milica\master_tuw\master_tuw\2_semester\dl_in_vc\DL_assignment1\dlvc_ss25-main\assignments\assignment_1\.venv\Lib\site-packages\torch\autograd\__init__.py", line 347, in backward
+    _engine_run_backward(
+  File "C:\Users\aleks\milica\master_tuw\master_tuw\2_semester\dl_in_vc\DL_assignment1\dlvc_ss25-main\assignments\assignment_1\.venv\Lib\site-packages\torch\autograd\graph.py", line 823, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

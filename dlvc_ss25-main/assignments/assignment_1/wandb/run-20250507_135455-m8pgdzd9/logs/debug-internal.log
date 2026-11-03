@@ -1,0 +1,15 @@
+{"time":"2025-05-07T13:54:55.9929831+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"C:\\Users\\aleks\\milica\\master_tuw\\master_tuw\\2_semester\\dl_in_vc\\DL_assignment1\\dlvc_ss25-main\\assignments\\assignment_1\\wandb\\run-20250507_135455-m8pgdzd9\\logs\\debug-core.log"}
+{"time":"2025-05-07T13:54:56.9656454+02:00","level":"INFO","msg":"created new stream","id":"m8pgdzd9"}
+{"time":"2025-05-07T13:54:56.9663831+02:00","level":"INFO","msg":"stream: started","id":"m8pgdzd9"}
+{"time":"2025-05-07T13:54:56.9663831+02:00","level":"INFO","msg":"handler: started","stream_id":"m8pgdzd9"}
+{"time":"2025-05-07T13:54:56.9675752+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"m8pgdzd9"}
+{"time":"2025-05-07T13:54:56.9675752+02:00","level":"INFO","msg":"sender: started","stream_id":"m8pgdzd9"}
+{"time":"2025-05-07T13:54:57.2527255+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-07T13:55:03.5694098+02:00","level":"INFO","msg":"stream: closing","id":"m8pgdzd9"}
+{"time":"2025-05-07T13:55:03.5694098+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-07T13:55:03.5694098+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-07T13:55:04.4310559+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-07T13:55:04.9132693+02:00","level":"INFO","msg":"handler: closed","stream_id":"m8pgdzd9"}
+{"time":"2025-05-07T13:55:04.9132693+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"m8pgdzd9"}
+{"time":"2025-05-07T13:55:04.9132693+02:00","level":"INFO","msg":"sender: closed","stream_id":"m8pgdzd9"}
+{"time":"2025-05-07T13:55:04.9138773+02:00","level":"INFO","msg":"stream: closed","id":"m8pgdzd9"}

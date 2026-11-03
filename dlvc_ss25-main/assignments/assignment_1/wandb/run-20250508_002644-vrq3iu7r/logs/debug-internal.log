@@ -1,0 +1,20 @@
+{"time":"2025-05-08T00:26:44.9072706+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"C:\\Users\\aleks\\milica\\master_tuw\\master_tuw\\2_semester\\dl_in_vc\\DL_assignment1\\dlvc_ss25-main\\assignments\\assignment_1\\wandb\\run-20250508_002644-vrq3iu7r\\logs\\debug-core.log"}
+{"time":"2025-05-08T00:26:45.2297157+02:00","level":"INFO","msg":"created new stream","id":"vrq3iu7r"}
+{"time":"2025-05-08T00:26:45.2297157+02:00","level":"INFO","msg":"stream: started","id":"vrq3iu7r"}
+{"time":"2025-05-08T00:26:45.2297157+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"vrq3iu7r"}
+{"time":"2025-05-08T00:26:45.2297157+02:00","level":"INFO","msg":"sender: started","stream_id":"vrq3iu7r"}
+{"time":"2025-05-08T00:26:45.2297157+02:00","level":"INFO","msg":"handler: started","stream_id":"vrq3iu7r"}
+{"time":"2025-05-08T00:26:45.4497295+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-08T01:01:35.0869423+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/e12332263-tu-wien/DL_for_VC/vrq3iu7r/file_stream\": write tcp 10.10.6.155:49822->35.186.228.49:443: wsasend: An existing connection was forcibly closed by the remote host."}
+{"time":"2025-05-08T04:06:31.0069671+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 10.10.6.155:65352->35.186.228.49:443: wsarecv: An existing connection was forcibly closed by the remote host."}
+{"time":"2025-05-08T05:58:06.5644485+02:00","level":"WARN","msg":"sender: taking a long time","seconds":6694.5085333,"work":"WorkRecord(*service_go_proto.Request_StopStatus); Control(local:true mailbox_slot:\"0t7brnmblma0\" connection_id:\"127.0.0.1:65349\")"}
+{"time":"2025-05-08T05:58:08.9176381+02:00","level":"INFO","msg":"sender: succeeded after taking longer than expected","seconds":6697.9197096,"work":"WorkRecord(*service_go_proto.Request_StopStatus); Control(local:true mailbox_slot:\"0t7brnmblma0\" connection_id:\"127.0.0.1:65349\")"}
+{"time":"2025-05-08T07:04:05.3824798+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-08T07:04:05.3835986+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-08T07:04:06.4037678+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.6241527,"progress":"194.0KB/194.0KB"},{"desc":"uploading config.yaml","runtime_seconds":0.4114376,"progress":"543B/543B"}],"total_operations":2}}
+{"time":"2025-05-08T07:04:07.1009959+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-08T07:04:08.0625746+02:00","level":"INFO","msg":"stream: closing","id":"vrq3iu7r"}
+{"time":"2025-05-08T07:04:08.0625746+02:00","level":"INFO","msg":"handler: closed","stream_id":"vrq3iu7r"}
+{"time":"2025-05-08T07:04:08.0625746+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"vrq3iu7r"}
+{"time":"2025-05-08T07:04:08.0635857+02:00","level":"INFO","msg":"sender: closed","stream_id":"vrq3iu7r"}
+{"time":"2025-05-08T07:04:08.0635857+02:00","level":"INFO","msg":"stream: closed","id":"vrq3iu7r"}

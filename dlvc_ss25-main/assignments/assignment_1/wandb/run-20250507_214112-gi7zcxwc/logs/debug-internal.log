@@ -1,0 +1,17 @@
+{"time":"2025-05-07T21:41:12.9536647+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"C:\\Users\\aleks\\milica\\master_tuw\\master_tuw\\2_semester\\dl_in_vc\\DL_assignment1\\dlvc_ss25-main\\assignments\\assignment_1\\wandb\\run-20250507_214112-gi7zcxwc\\logs\\debug-core.log"}
+{"time":"2025-05-07T21:41:13.8090605+02:00","level":"INFO","msg":"created new stream","id":"gi7zcxwc"}
+{"time":"2025-05-07T21:41:13.8093798+02:00","level":"INFO","msg":"stream: started","id":"gi7zcxwc"}
+{"time":"2025-05-07T21:41:13.8093798+02:00","level":"INFO","msg":"handler: started","stream_id":"gi7zcxwc"}
+{"time":"2025-05-07T21:41:13.8093798+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"gi7zcxwc"}
+{"time":"2025-05-07T21:41:13.8093798+02:00","level":"INFO","msg":"sender: started","stream_id":"gi7zcxwc"}
+{"time":"2025-05-07T21:41:14.1169256+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-07T23:37:03.7733988+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/e12332263-tu-wien/DL_for_VC/gi7zcxwc/file_stream\": write tcp 10.10.6.155:63796->35.186.228.49:443: wsasend: An existing connection was forcibly closed by the remote host."}
+{"time":"2025-05-08T00:13:31.1153542+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-08T00:13:31.1153542+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-08T00:13:32.1272102+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.6385046,"progress":"250.4KB/250.4KB"},{"desc":"uploading config.yaml","runtime_seconds":0.3787562,"progress":"543B/543B"}],"total_operations":2}}
+{"time":"2025-05-08T00:13:32.3502989+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-08T00:13:33.1654123+02:00","level":"INFO","msg":"stream: closing","id":"gi7zcxwc"}
+{"time":"2025-05-08T00:13:33.1654123+02:00","level":"INFO","msg":"handler: closed","stream_id":"gi7zcxwc"}
+{"time":"2025-05-08T00:13:33.1654123+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"gi7zcxwc"}
+{"time":"2025-05-08T00:13:33.1654123+02:00","level":"INFO","msg":"sender: closed","stream_id":"gi7zcxwc"}
+{"time":"2025-05-08T00:13:33.1654123+02:00","level":"INFO","msg":"stream: closed","id":"gi7zcxwc"}

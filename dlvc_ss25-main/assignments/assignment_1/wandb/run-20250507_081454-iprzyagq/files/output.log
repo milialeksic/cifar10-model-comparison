@@ -1,0 +1,20 @@
+[Training] Epoch 0:   0%|                                                                                                                                                                                                | 0/313 [00:00<?, ?it/s]
+Training Epochs:   0%|                                                                                                                                                                                                    | 0/30 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "D:\Master\2025SS\DL for Visual Computing\assignment_1\DL_assignment1\dlvc_ss25-main\assignments\assignment_1\train_yourCNN.py", line 79, in <module>
+    train(args.data_dir,regularization_mode = "default")
+  File "D:\Master\2025SS\DL for Visual Computing\assignment_1\DL_assignment1\dlvc_ss25-main\assignments\assignment_1\train_yourCNN.py", line 70, in train
+    trainer.train()
+  File "D:\Master\2025SS\DL for Visual Computing\assignment_1\DL_assignment1\dlvc_ss25-main\assignments\assignment_1\assignment_1_code\trainer.py", line 252, in train
+    train_loss, train_acc, train_pcacc = self._train_epoch(epoch)
+  File "D:\Master\2025SS\DL for Visual Computing\assignment_1\DL_assignment1\dlvc_ss25-main\assignments\assignment_1\assignment_1_code\trainer.py", line 141, in _train_epoch
+    loss = self.loss_fn(outputs, targets)
+  File "C:\Users\Vidak\miniconda3\envs\dl_a1_env\lib\site-packages\torch\nn\modules\module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\Vidak\miniconda3\envs\dl_a1_env\lib\site-packages\torch\nn\modules\module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\Vidak\miniconda3\envs\dl_a1_env\lib\site-packages\torch\nn\modules\loss.py", line 1295, in forward
+    return F.cross_entropy(
+  File "C:\Users\Vidak\miniconda3\envs\dl_a1_env\lib\site-packages\torch\nn\functional.py", line 3494, in cross_entropy
+    return torch._C._nn.cross_entropy_loss(
+TypeError: cross_entropy_loss(): argument 'input' (position 1) must be Tensor, not NoneType

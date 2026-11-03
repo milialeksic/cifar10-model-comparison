@@ -1,0 +1,132 @@
+Testing...: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 79/79 [00:10<00:00,  7.37it/s]
+
+----- Test Results -----
+Test Loss: 1.1992
+
+Test Accuracy: 0.7394
+Test Per-Class Accuracy: 0.7394
+
+Accuracy for class: plane  is 80.50
+Accuracy for class: car    is 86.60
+Accuracy for class: bird   is 64.80
+Accuracy for class: cat    is 62.60
+Accuracy for class: deer   is 73.60
+Accuracy for class: dog    is 57.90
+Accuracy for class: frog   is 76.20
+Accuracy for class: horse  is 74.30
+Accuracy for class: ship   is 82.50
+Accuracy for class: truck  is 80.40
+Using device: cuda:0
+Testing...: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 79/79 [00:19<00:00,  3.95it/s]
+
+----- Test Results -----
+Test Loss: 0.5638
+
+Test Accuracy: 0.8129
+Test Per-Class Accuracy: 0.8129
+
+Accuracy for class: plane  is 85.00
+Accuracy for class: car    is 90.60
+Accuracy for class: bird   is 66.20
+Accuracy for class: cat    is 66.60
+Accuracy for class: deer   is 84.40
+Accuracy for class: dog    is 75.10
+Accuracy for class: frog   is 83.90
+Accuracy for class: horse  is 83.80
+Accuracy for class: ship   is 88.60
+Accuracy for class: truck  is 88.70
+Using device: cuda:0
+Testing...: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 79/79 [00:21<00:00,  3.67it/s]
+
+----- Test Results -----
+Test Loss: 1.1956
+
+Test Accuracy: 0.7492
+Test Per-Class Accuracy: 0.7492
+
+Accuracy for class: plane  is 80.30
+Accuracy for class: car    is 86.60
+Accuracy for class: bird   is 64.90
+Accuracy for class: cat    is 51.40
+Accuracy for class: deer   is 68.20
+Accuracy for class: dog    is 66.40
+Accuracy for class: frog   is 89.40
+Accuracy for class: horse  is 76.90
+Accuracy for class: ship   is 83.30
+Accuracy for class: truck  is 81.80
+Using device: cuda:0
+Testing...: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 79/79 [00:20<00:00,  3.94it/s]
+
+----- Test Results -----
+Test Loss: 1.4732
+
+Test Accuracy: 0.7166
+Test Per-Class Accuracy: 0.7166
+
+Accuracy for class: plane  is 73.80
+Accuracy for class: car    is 81.30
+Accuracy for class: bird   is 57.00
+Accuracy for class: cat    is 48.70
+Accuracy for class: deer   is 71.20
+Accuracy for class: dog    is 68.30
+Accuracy for class: frog   is 75.80
+Accuracy for class: horse  is 81.10
+Accuracy for class: ship   is 79.40
+Accuracy for class: truck  is 80.00
+Using device: cuda:0
+Testing...: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 79/79 [00:19<00:00,  3.96it/s]
+
+----- Test Results -----
+Test Loss: 0.6011
+
+Test Accuracy: 0.8004
+Test Per-Class Accuracy: 0.8004
+
+Accuracy for class: plane  is 80.80
+Accuracy for class: car    is 88.80
+Accuracy for class: bird   is 69.70
+Accuracy for class: cat    is 74.60
+Accuracy for class: deer   is 84.90
+Accuracy for class: dog    is 61.60
+Accuracy for class: frog   is 86.40
+Accuracy for class: horse  is 80.90
+Accuracy for class: ship   is 87.50
+Accuracy for class: truck  is 85.20
+Using device: cuda:0
+Testing...: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 79/79 [00:20<00:00,  3.87it/s]
+
+----- Test Results -----
+Test Loss: 0.6397
+
+Test Accuracy: 0.7972
+Test Per-Class Accuracy: 0.7972
+
+Accuracy for class: plane  is 76.80
+Accuracy for class: car    is 86.80
+Accuracy for class: bird   is 70.70
+Accuracy for class: cat    is 52.50
+Accuracy for class: deer   is 82.70
+Accuracy for class: dog    is 77.50
+Accuracy for class: frog   is 88.30
+Accuracy for class: horse  is 84.20
+Accuracy for class: ship   is 94.20
+Accuracy for class: truck  is 83.50
+Using device: cuda:0
+Testing...: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 79/79 [00:20<00:00,  3.84it/s]
+
+----- Test Results -----
+Test Loss: 0.5803
+
+Test Accuracy: 0.8027
+Test Per-Class Accuracy: 0.8027
+
+Accuracy for class: plane  is 81.80
+Accuracy for class: car    is 84.50
+Accuracy for class: bird   is 68.30
+Accuracy for class: cat    is 54.40
+Accuracy for class: deer   is 84.40
+Accuracy for class: dog    is 76.10
+Accuracy for class: frog   is 89.20
+Accuracy for class: horse  is 84.20
+Accuracy for class: ship   is 89.20
+Accuracy for class: truck  is 90.60

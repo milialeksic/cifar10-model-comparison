@@ -1,0 +1,51 @@
+[Training] Epoch 0: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [01:15<00:00,  4.14it/s]
+[Validation] Epoch 0: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 79/79 [00:14<00:00,  5.47it/s]
+
+------- Training epoch results start -------
+
+______epoch 0
+Train loss: 1.7015
+Train accuracy: 0.3780
+Train per-class accuracy: 0.3781
+Accuracy for class: plane  is 44.15%
+Accuracy for class: car    is 49.27%
+Accuracy for class: bird   is 22.65%
+Accuracy for class: cat    is 24.95%
+Accuracy for class: deer   is 28.23%
+Accuracy for class: dog    is 28.73%
+Accuracy for class: frog   is 44.88%
+Accuracy for class: horse  is 41.11%
+Accuracy for class: ship   is 50.16%
+Accuracy for class: truck  is 43.94%
+
+------- Training epoch results end -------
+Training Epochs:   0%|                                                                                                                               | 0/50 [01:30<?, ?it/s]
+
+
+------- Validation epoch results start -------
+
+______epoch 0
+Validation loss: 1.4511
+Validation accuracy: 0.4812
+Validation per class accuracy: 0.4810
+Accuracy for class: plane  is 0.52
+Accuracy for class: car    is 0.74
+Accuracy for class: bird   is 0.40
+Accuracy for class: cat    is 0.17
+Accuracy for class: deer   is 0.32
+Accuracy for class: dog    is 0.40
+Accuracy for class: frog   is 0.56
+Accuracy for class: horse  is 0.50
+Accuracy for class: ship   is 0.65
+Accuracy for class: truck  is 0.56
+
+------- Validation epoch results end -------
+Traceback (most recent call last):
+  File "C:\Users\aleks\milica\master_tuw\master_tuw\2_semester\dl_in_vc\DL_assignment1\dlvc_ss25-main\assignments\assignment_1\train_yourViT.py", line 70, in <module>
+    train(args.data_dir,regularization_mode = "default")
+  File "C:\Users\aleks\milica\master_tuw\master_tuw\2_semester\dl_in_vc\DL_assignment1\dlvc_ss25-main\assignments\assignment_1\train_yourViT.py", line 60, in train
+    trainer.train()
+  File "C:\Users\aleks\milica\master_tuw\master_tuw\2_semester\dl_in_vc\DL_assignment1\dlvc_ss25-main\assignments\assignment_1\assignment_1_code\trainer.py", line 261, in train
+    model_path = self.training_save_dir / "ResNet_model_best.pth"
+                 ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for /: 'str' and 'str'

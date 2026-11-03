@@ -1,0 +1,17 @@
+{"time":"2025-05-08T18:04:38.5052092+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"C:\\Users\\aleks\\milica\\master_tuw\\master_tuw\\2_semester\\dl_in_vc\\DL_assignment1\\dlvc_ss25-main\\assignments\\assignment_1\\wandb\\run-20250508_180438-u0bki4dg\\logs\\debug-core.log"}
+{"time":"2025-05-08T18:04:39.3275249+02:00","level":"INFO","msg":"created new stream","id":"u0bki4dg"}
+{"time":"2025-05-08T18:04:39.3282391+02:00","level":"INFO","msg":"stream: started","id":"u0bki4dg"}
+{"time":"2025-05-08T18:04:39.3282391+02:00","level":"INFO","msg":"handler: started","stream_id":"u0bki4dg"}
+{"time":"2025-05-08T18:04:39.3287666+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"u0bki4dg"}
+{"time":"2025-05-08T18:04:39.3287666+02:00","level":"INFO","msg":"sender: started","stream_id":"u0bki4dg"}
+{"time":"2025-05-08T18:04:39.6226509+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-08T19:59:59.2475084+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/e12332263-tu-wien/DL_for_VC/u0bki4dg/file_stream\": read tcp 10.10.6.155:63102->35.186.228.49:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."}
+{"time":"2025-05-08T21:34:50.2128562+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-08T21:34:50.2128562+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-08T21:34:51.2268346+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.5989939,"progress":"194.6KB/194.6KB"}],"total_operations":1}}
+{"time":"2025-05-08T21:34:51.4696865+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-08T21:34:52.2176817+02:00","level":"INFO","msg":"stream: closing","id":"u0bki4dg"}
+{"time":"2025-05-08T21:34:52.2176817+02:00","level":"INFO","msg":"handler: closed","stream_id":"u0bki4dg"}
+{"time":"2025-05-08T21:34:52.2176817+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"u0bki4dg"}
+{"time":"2025-05-08T21:34:52.2176817+02:00","level":"INFO","msg":"sender: closed","stream_id":"u0bki4dg"}
+{"time":"2025-05-08T21:34:52.2176817+02:00","level":"INFO","msg":"stream: closed","id":"u0bki4dg"}

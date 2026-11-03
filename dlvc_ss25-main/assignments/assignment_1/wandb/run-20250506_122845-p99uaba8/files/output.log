@@ -1,0 +1,36 @@
+hoce2
+[Training] Epoch 0:   0%|                                                                                                                           | 0/313 [00:00<?, ?it/s]
+Training Epochs:   0%|                                                                                                                               | 0/50 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "C:\Users\aleks\milica\master_tuw\master_tuw\2_semester\dl_in_vc\DL_assignment1\dlvc_ss25-main\assignments\assignment_1\train_yourViT.py", line 45, in <module>
+    trainer.train()
+  File "C:\Users\aleks\milica\master_tuw\master_tuw\2_semester\dl_in_vc\DL_assignment1\dlvc_ss25-main\assignments\assignment_1\assignment_1_code\trainer.py", line 251, in train
+    train_loss, train_acc, train_pcacc = self._train_epoch(epoch)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aleks\milica\master_tuw\master_tuw\2_semester\dl_in_vc\DL_assignment1\dlvc_ss25-main\assignments\assignment_1\assignment_1_code\trainer.py", line 139, in _train_epoch
+    outputs = self.model(inputs)
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aleks\milica\master_tuw\master_tuw\2_semester\dl_in_vc\DL_assignment1\dlvc_ss25-main\assignments\assignment_1\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aleks\milica\master_tuw\master_tuw\2_semester\dl_in_vc\DL_assignment1\dlvc_ss25-main\assignments\assignment_1\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1845, in _call_impl
+    return inner()
+           ^^^^^^^
+  File "C:\Users\aleks\milica\master_tuw\master_tuw\2_semester\dl_in_vc\DL_assignment1\dlvc_ss25-main\assignments\assignment_1\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1793, in inner
+    result = forward_call(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aleks\milica\master_tuw\master_tuw\2_semester\dl_in_vc\DL_assignment1\dlvc_ss25-main\assignments\assignment_1\assignment_1_code\models\class_model.py", line 11, in forward
+    return self.net(x)
+           ^^^^^^^^^^^
+  File "C:\Users\aleks\milica\master_tuw\master_tuw\2_semester\dl_in_vc\DL_assignment1\dlvc_ss25-main\assignments\assignment_1\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aleks\milica\master_tuw\master_tuw\2_semester\dl_in_vc\DL_assignment1\dlvc_ss25-main\assignments\assignment_1\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aleks\milica\master_tuw\master_tuw\2_semester\dl_in_vc\DL_assignment1\dlvc_ss25-main\assignments\assignment_1\assignment_1_code\models\vit.py", line 77, in forward
+    cls_tokens = self.cls_token.expand(B, -1, -1)
+                 ^^^^^^^^^^^^^^
+  File "C:\Users\aleks\milica\master_tuw\master_tuw\2_semester\dl_in_vc\DL_assignment1\dlvc_ss25-main\assignments\assignment_1\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1928, in __getattr__
+    raise AttributeError(
+AttributeError: 'VisionTransformer' object has no attribute 'cls_token'

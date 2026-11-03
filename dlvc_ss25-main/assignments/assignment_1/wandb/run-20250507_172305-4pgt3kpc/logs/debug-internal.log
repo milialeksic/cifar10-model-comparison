@@ -1,0 +1,16 @@
+{"time":"2025-05-07T17:23:05.6123858+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"C:\\Users\\aleks\\milica\\master_tuw\\master_tuw\\2_semester\\dl_in_vc\\DL_assignment1\\dlvc_ss25-main\\assignments\\assignment_1\\wandb\\run-20250507_172305-4pgt3kpc\\logs\\debug-core.log"}
+{"time":"2025-05-07T17:23:06.5345016+02:00","level":"INFO","msg":"created new stream","id":"4pgt3kpc"}
+{"time":"2025-05-07T17:23:06.5345016+02:00","level":"INFO","msg":"stream: started","id":"4pgt3kpc"}
+{"time":"2025-05-07T17:23:06.5350464+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"4pgt3kpc"}
+{"time":"2025-05-07T17:23:06.5355758+02:00","level":"INFO","msg":"sender: started","stream_id":"4pgt3kpc"}
+{"time":"2025-05-07T17:23:06.5355758+02:00","level":"INFO","msg":"handler: started","stream_id":"4pgt3kpc"}
+{"time":"2025-05-07T17:23:06.8847563+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-07T19:41:09.6580305+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-07T19:41:09.6580305+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-07T19:41:10.7123385+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.6563967,"progress":"32.3KB/32.3KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.6563967,"progress":"250.3KB/250.3KB"},{"desc":"uploading config.yaml","runtime_seconds":0.4594934,"progress":"543B/543B"}],"total_operations":3}}
+{"time":"2025-05-07T19:41:11.0046688+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-07T19:41:12.08288+02:00","level":"INFO","msg":"stream: closing","id":"4pgt3kpc"}
+{"time":"2025-05-07T19:41:12.08288+02:00","level":"INFO","msg":"handler: closed","stream_id":"4pgt3kpc"}
+{"time":"2025-05-07T19:41:12.08288+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"4pgt3kpc"}
+{"time":"2025-05-07T19:41:12.08288+02:00","level":"INFO","msg":"sender: closed","stream_id":"4pgt3kpc"}
+{"time":"2025-05-07T19:41:12.08288+02:00","level":"INFO","msg":"stream: closed","id":"4pgt3kpc"}

@@ -1,0 +1,15 @@
+{"time":"2025-05-07T09:22:48.6839278+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"D:\\Master\\2025SS\\DL for Visual Computing\\assignment_1\\DL_assignment1\\dlvc_ss25-main\\assignments\\assignment_1\\wandb\\run-20250507_092248-s504gi0j\\logs\\debug-core.log"}
+{"time":"2025-05-07T09:22:49.2221095+02:00","level":"INFO","msg":"created new stream","id":"s504gi0j"}
+{"time":"2025-05-07T09:22:49.2221095+02:00","level":"INFO","msg":"stream: started","id":"s504gi0j"}
+{"time":"2025-05-07T09:22:49.2221095+02:00","level":"INFO","msg":"handler: started","stream_id":"s504gi0j"}
+{"time":"2025-05-07T09:22:49.2226253+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"s504gi0j"}
+{"time":"2025-05-07T09:22:49.2226253+02:00","level":"INFO","msg":"sender: started","stream_id":"s504gi0j"}
+{"time":"2025-05-07T09:22:49.4682407+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-07T09:23:15.6302369+02:00","level":"INFO","msg":"stream: closing","id":"s504gi0j"}
+{"time":"2025-05-07T09:23:15.6302369+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-07T09:23:15.6302369+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-07T09:23:16.309159+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-07T09:23:16.7588804+02:00","level":"INFO","msg":"handler: closed","stream_id":"s504gi0j"}
+{"time":"2025-05-07T09:23:16.7588804+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"s504gi0j"}
+{"time":"2025-05-07T09:23:16.7588804+02:00","level":"INFO","msg":"sender: closed","stream_id":"s504gi0j"}
+{"time":"2025-05-07T09:23:16.7594201+02:00","level":"INFO","msg":"stream: closed","id":"s504gi0j"}

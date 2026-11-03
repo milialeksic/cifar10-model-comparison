@@ -1,0 +1,15 @@
+{"time":"2025-05-06T12:59:47.1260623+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"C:\\Users\\aleks\\milica\\master_tuw\\master_tuw\\2_semester\\dl_in_vc\\DL_assignment1\\dlvc_ss25-main\\assignments\\assignment_1\\wandb\\run-20250506_125947-nze86rjc\\logs\\debug-core.log"}
+{"time":"2025-05-06T12:59:47.4737726+02:00","level":"INFO","msg":"created new stream","id":"nze86rjc"}
+{"time":"2025-05-06T12:59:47.4737726+02:00","level":"INFO","msg":"stream: started","id":"nze86rjc"}
+{"time":"2025-05-06T12:59:47.4737726+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"nze86rjc"}
+{"time":"2025-05-06T12:59:47.4737726+02:00","level":"INFO","msg":"handler: started","stream_id":"nze86rjc"}
+{"time":"2025-05-06T12:59:47.4737726+02:00","level":"INFO","msg":"sender: started","stream_id":"nze86rjc"}
+{"time":"2025-05-06T12:59:47.8360164+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-06T13:00:32.0000804+02:00","level":"INFO","msg":"stream: closing","id":"nze86rjc"}
+{"time":"2025-05-06T13:00:32.0000804+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-06T13:00:32.0000804+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-06T13:00:33.0438945+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-06T13:00:33.7719932+02:00","level":"INFO","msg":"handler: closed","stream_id":"nze86rjc"}
+{"time":"2025-05-06T13:00:33.7719932+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"nze86rjc"}
+{"time":"2025-05-06T13:00:33.7727293+02:00","level":"INFO","msg":"sender: closed","stream_id":"nze86rjc"}
+{"time":"2025-05-06T13:00:33.7727293+02:00","level":"INFO","msg":"stream: closed","id":"nze86rjc"}

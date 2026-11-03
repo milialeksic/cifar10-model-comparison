@@ -1,0 +1,19 @@
+hoce2
+[Training] Epoch 0:   0%|                                                                                                                           | 0/313 [00:00<?, ?it/s]
+Training Epochs:   0%|                                                                                                                               | 0/50 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "C:\Users\aleks\milica\master_tuw\master_tuw\2_semester\dl_in_vc\DL_assignment1\dlvc_ss25-main\assignments\assignment_1\train_yourViT.py", line 45, in <module>
+    trainer.train()
+  File "C:\Users\aleks\milica\master_tuw\master_tuw\2_semester\dl_in_vc\DL_assignment1\dlvc_ss25-main\assignments\assignment_1\assignment_1_code\trainer.py", line 251, in train
+    train_loss, train_acc, train_pcacc = self._train_epoch(epoch)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aleks\milica\master_tuw\master_tuw\2_semester\dl_in_vc\DL_assignment1\dlvc_ss25-main\assignments\assignment_1\assignment_1_code\trainer.py", line 141, in _train_epoch
+    loss.backward()
+  File "C:\Users\aleks\milica\master_tuw\master_tuw\2_semester\dl_in_vc\DL_assignment1\dlvc_ss25-main\assignments\assignment_1\.venv\Lib\site-packages\torch\_tensor.py", line 626, in backward
+    torch.autograd.backward(
+  File "C:\Users\aleks\milica\master_tuw\master_tuw\2_semester\dl_in_vc\DL_assignment1\dlvc_ss25-main\assignments\assignment_1\.venv\Lib\site-packages\torch\autograd\__init__.py", line 347, in backward
+    _engine_run_backward(
+  File "C:\Users\aleks\milica\master_tuw\master_tuw\2_semester\dl_in_vc\DL_assignment1\dlvc_ss25-main\assignments\assignment_1\.venv\Lib\site-packages\torch\autograd\graph.py", line 823, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: one of the variables needed for gradient computation has been modified by an inplace operation: [torch.cuda.FloatTensor [128, 65, 128]], which is output 0 of AddBackward0, is at version 12; expected version 11 instead. Hint: enable anomaly detection to find the operation that failed to compute its gradient, with torch.autograd.set_detect_anomaly(True).

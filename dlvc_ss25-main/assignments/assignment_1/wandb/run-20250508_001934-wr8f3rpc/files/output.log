@@ -1,0 +1,51 @@
+[Training] Epoch 0: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [03:24<00:00,  1.53it/s]
+[Validation] Epoch 0: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 79/79 [00:20<00:00,  3.78it/s]
+
+------- Training epoch results start -------
+
+______epoch 0
+Train loss: 1.4234
+Train accuracy: 0.4899
+Train per-class accuracy: 0.4900
+Accuracy for class: plane  is 52.68%
+Accuracy for class: car    is 59.33%
+Accuracy for class: bird   is 33.00%
+Accuracy for class: cat    is 35.14%
+Accuracy for class: deer   is 39.72%
+Accuracy for class: dog    is 39.30%
+Accuracy for class: frog   is 59.28%
+Accuracy for class: horse  is 55.53%
+Accuracy for class: ship   is 61.90%
+Accuracy for class: truck  is 54.10%
+
+------- Training epoch results end -------
+Training Epochs:   0%|                                                                                                                                               | 0/30 [03:45<?, ?it/s]
+
+
+------- Validation epoch results start -------
+
+______epoch 0
+Validation loss: 1.3134
+Validation accuracy: 0.5397
+Validation per class accuracy: 0.5406
+Accuracy for class: plane  is 0.71
+Accuracy for class: car    is 0.81
+Accuracy for class: bird   is 0.54
+Accuracy for class: cat    is 0.26
+Accuracy for class: deer   is 0.42
+Accuracy for class: dog    is 0.15
+Accuracy for class: frog   is 0.53
+Accuracy for class: horse  is 0.73
+Accuracy for class: ship   is 0.59
+Accuracy for class: truck  is 0.67
+
+------- Validation epoch results end -------
+Traceback (most recent call last):
+  File "C:\Users\aleks\milica\master_tuw\master_tuw\2_semester\dl_in_vc\DL_assignment1\dlvc_ss25-main\assignments\assignment_1\train.py", line 170, in <module>
+    train(args)
+  File "C:\Users\aleks\milica\master_tuw\master_tuw\2_semester\dl_in_vc\DL_assignment1\dlvc_ss25-main\assignments\assignment_1\train.py", line 151, in train
+    trainer.train()
+  File "C:\Users\aleks\milica\master_tuw\master_tuw\2_semester\dl_in_vc\DL_assignment1\dlvc_ss25-main\assignments\assignment_1\assignment_1_code\trainer.py", line 261, in train
+    model_path = self.training_save_dir +"model_best.pth"
+                 ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for +: 'WindowsPath' and 'str'

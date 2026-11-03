@@ -1,0 +1,15 @@
+{"time":"2025-05-07T08:15:59.5248969+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"D:\\Master\\2025SS\\DL for Visual Computing\\assignment_1\\DL_assignment1\\dlvc_ss25-main\\assignments\\assignment_1\\wandb\\run-20250507_081559-yskmoe4e\\logs\\debug-core.log"}
+{"time":"2025-05-07T08:15:59.871898+02:00","level":"INFO","msg":"created new stream","id":"yskmoe4e"}
+{"time":"2025-05-07T08:15:59.871898+02:00","level":"INFO","msg":"stream: started","id":"yskmoe4e"}
+{"time":"2025-05-07T08:15:59.871898+02:00","level":"INFO","msg":"handler: started","stream_id":"yskmoe4e"}
+{"time":"2025-05-07T08:15:59.871898+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"yskmoe4e"}
+{"time":"2025-05-07T08:15:59.871898+02:00","level":"INFO","msg":"sender: started","stream_id":"yskmoe4e"}
+{"time":"2025-05-07T08:16:00.1766029+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-07T08:16:30.3520314+02:00","level":"INFO","msg":"stream: closing","id":"yskmoe4e"}
+{"time":"2025-05-07T08:16:30.3520314+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-07T08:16:30.3520314+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-07T08:16:31.4545912+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-07T08:16:32.0263416+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"yskmoe4e"}
+{"time":"2025-05-07T08:16:32.0263416+02:00","level":"INFO","msg":"sender: closed","stream_id":"yskmoe4e"}
+{"time":"2025-05-07T08:16:32.0263416+02:00","level":"INFO","msg":"handler: closed","stream_id":"yskmoe4e"}
+{"time":"2025-05-07T08:16:32.0263416+02:00","level":"INFO","msg":"stream: closed","id":"yskmoe4e"}

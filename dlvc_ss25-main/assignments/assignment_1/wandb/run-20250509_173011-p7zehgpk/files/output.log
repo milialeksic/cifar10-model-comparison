@@ -1,0 +1,132 @@
+Testing Combination:Vit-Default-Test : 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 79/79 [00:08<00:00,  9.58it/s]
+
+----- Test Results -----
+Test Loss: 2.3417
+
+Test Accuracy: 0.4342
+Test Per-Class Accuracy: 0.4342
+
+Accuracy for class: plane  is 51.80
+Accuracy for class: car    is 49.40
+Accuracy for class: bird   is 30.90
+Accuracy for class: cat    is 36.70
+Accuracy for class: deer   is 30.40
+Accuracy for class: dog    is 28.80
+Accuracy for class: frog   is 42.40
+Accuracy for class: horse  is 47.60
+Accuracy for class: ship   is 43.80
+Accuracy for class: truck  is 72.40
+Using device: cuda:0
+Testing Combination:Vit-Augmentation-Test : 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 79/79 [00:16<00:00,  4.75it/s]
+
+----- Test Results -----
+Test Loss: 2.5535
+
+Test Accuracy: 0.2917
+Test Per-Class Accuracy: 0.2917
+
+Accuracy for class: plane  is 42.40
+Accuracy for class: car    is 27.60
+Accuracy for class: bird   is 39.60
+Accuracy for class: cat    is 15.30
+Accuracy for class: deer   is 19.90
+Accuracy for class: dog    is 27.60
+Accuracy for class: frog   is 37.30
+Accuracy for class: horse  is 20.70
+Accuracy for class: ship   is 34.30
+Accuracy for class: truck  is 27.00
+Using device: cuda:0
+Testing Combination:Vit-Weight-decay-Test : 100%|███████████████████████████████████████████████████████████████████████████████████████████| 79/79 [00:17<00:00,  4.48it/s]
+
+----- Test Results -----
+Test Loss: 3.0906
+
+Test Accuracy: 0.4137
+Test Per-Class Accuracy: 0.4137
+
+Accuracy for class: plane  is 58.90
+Accuracy for class: car    is 57.20
+Accuracy for class: bird   is 28.20
+Accuracy for class: cat    is 16.60
+Accuracy for class: deer   is 24.50
+Accuracy for class: dog    is 33.90
+Accuracy for class: frog   is 44.30
+Accuracy for class: horse  is 44.00
+Accuracy for class: ship   is 39.80
+Accuracy for class: truck  is 66.30
+Using device: cuda:0
+Testing Combination:Vit-Learning-rate-Test : 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 79/79 [00:17<00:00,  4.43it/s]
+
+----- Test Results -----
+Test Loss: 2.8901
+
+Test Accuracy: 0.4248
+Test Per-Class Accuracy: 0.4248
+
+Accuracy for class: plane  is 50.70
+Accuracy for class: car    is 54.30
+Accuracy for class: bird   is 28.90
+Accuracy for class: cat    is 23.90
+Accuracy for class: deer   is 16.90
+Accuracy for class: dog    is 31.00
+Accuracy for class: frog   is 54.60
+Accuracy for class: horse  is 47.30
+Accuracy for class: ship   is 45.10
+Accuracy for class: truck  is 72.10
+Using device: cuda:0
+Testing Combination:Vit-Augmentation-weight-decay-Test : 100%|██████████████████████████████████████████████████████████████████████████████| 79/79 [00:17<00:00,  4.43it/s]
+
+----- Test Results -----
+Test Loss: 0.7546
+
+Test Accuracy: 0.7410
+Test Per-Class Accuracy: 0.7410
+
+Accuracy for class: plane  is 78.80
+Accuracy for class: car    is 84.50
+Accuracy for class: bird   is 66.70
+Accuracy for class: cat    is 56.40
+Accuracy for class: deer   is 69.50
+Accuracy for class: dog    is 57.20
+Accuracy for class: frog   is 87.80
+Accuracy for class: horse  is 77.40
+Accuracy for class: ship   is 88.10
+Accuracy for class: truck  is 74.60
+Using device: cuda:0
+Testing Combination:Vit-Augmentation-learning-rate-Test : 100%|█████████████████████████████████████████████████████████████████████████████| 79/79 [00:17<00:00,  4.42it/s]
+
+----- Test Results -----
+Test Loss: 0.6980
+
+Test Accuracy: 0.7588
+Test Per-Class Accuracy: 0.7588
+
+Accuracy for class: plane  is 81.60
+Accuracy for class: car    is 85.40
+Accuracy for class: bird   is 67.80
+Accuracy for class: cat    is 56.20
+Accuracy for class: deer   is 71.10
+Accuracy for class: dog    is 63.30
+Accuracy for class: frog   is 85.60
+Accuracy for class: horse  is 79.50
+Accuracy for class: ship   is 85.50
+Accuracy for class: truck  is 82.80
+Using device: cuda:0
+Testing Combination:Vit-Augmentation-weight-decay-learning-rate-Test : 100%|████████████████████████████████████████████████████████████████| 79/79 [00:17<00:00,  4.43it/s]
+
+----- Test Results -----
+Test Loss: 0.6976
+
+Test Accuracy: 0.7611
+Test Per-Class Accuracy: 0.7611
+
+Accuracy for class: plane  is 79.60
+Accuracy for class: car    is 89.80
+Accuracy for class: bird   is 67.00
+Accuracy for class: cat    is 52.90
+Accuracy for class: deer   is 66.00
+Accuracy for class: dog    is 71.90
+Accuracy for class: frog   is 85.80
+Accuracy for class: horse  is 78.60
+Accuracy for class: ship   is 89.30
+Accuracy for class: truck  is 80.20

@@ -1,0 +1,58 @@
+[Training] Epoch 0: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [00:22<00:00, 14.14it/s]
+[Validation] Epoch 0: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 79/79 [00:03<00:00, 25.99it/s]
+
+------- Training epoch results start -------
+
+______epoch 0
+Train loss: 1.6743
+Train accuracy: 0.3772
+Train per-class accuracy: 0.3775
+Accuracy for class: plane  is 46.11%
+Accuracy for class: car    is 49.25%
+Accuracy for class: bird   is 15.51%
+Accuracy for class: cat    is 19.20%
+Accuracy for class: deer   is 25.71%
+Accuracy for class: dog    is 36.88%
+Accuracy for class: frog   is 48.81%
+Accuracy for class: horse  is 43.15%
+Accuracy for class: ship   is 47.06%
+Accuracy for class: truck  is 45.78%
+
+------- Training epoch results end -------
+Training Epochs:   0%|                                                                                                                                                                              | 0/30 [00:25<?, ?it/s]
+
+
+------- Validation epoch results start -------
+
+______epoch 0
+Validation loss: 1.3542
+Validation accuracy: 0.5045
+Validation per class accuracy: 0.5035
+Accuracy for class: plane  is 0.49
+Accuracy for class: car    is 0.75
+Accuracy for class: bird   is 0.31
+Accuracy for class: cat    is 0.53
+Accuracy for class: deer   is 0.19
+Accuracy for class: dog    is 0.37
+Accuracy for class: frog   is 0.58
+Accuracy for class: horse  is 0.58
+Accuracy for class: ship   is 0.65
+Accuracy for class: truck  is 0.60
+
+------- Validation epoch results end -------
+Traceback (most recent call last):
+  File "D:\Master\2025SS\DL for Visual Computing\assignment_1\DL_assignment1\dlvc_ss25-main\assignments\assignment_1\train_yourCNN.py", line 79, in <module>
+    train(args.data_dir,regularization_mode = "default")
+  File "D:\Master\2025SS\DL for Visual Computing\assignment_1\DL_assignment1\dlvc_ss25-main\assignments\assignment_1\train_yourCNN.py", line 70, in train
+    trainer.train()
+  File "D:\Master\2025SS\DL for Visual Computing\assignment_1\DL_assignment1\dlvc_ss25-main\assignments\assignment_1\assignment_1_code\trainer.py", line 262, in train
+    self.model.save(model_path)
+  File "D:\Master\2025SS\DL for Visual Computing\assignment_1\DL_assignment1\dlvc_ss25-main\assignments\assignment_1\assignment_1_code\models\class_model.py", line 25, in save
+    torch.save(self.net.state_dict(), save_path)
+  File "C:\Users\Vidak\miniconda3\envs\dl_a1_env\lib\site-packages\torch\serialization.py", line 943, in save
+    with _open_zipfile_writer(f) as opened_zipfile:
+  File "C:\Users\Vidak\miniconda3\envs\dl_a1_env\lib\site-packages\torch\serialization.py", line 810, in _open_zipfile_writer
+    return container(name_or_buffer)
+  File "C:\Users\Vidak\miniconda3\envs\dl_a1_env\lib\site-packages\torch\serialization.py", line 781, in __init__
+    super().__init__(torch._C.PyTorchFileWriter(self.name, _compute_crc32))
+RuntimeError: Parent directory ./saved_models/your_cnn_model_default does not exist.

@@ -1,0 +1,20 @@
+{"time":"2025-05-08T21:34:53.6295628+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"C:\\Users\\aleks\\milica\\master_tuw\\master_tuw\\2_semester\\dl_in_vc\\DL_assignment1\\dlvc_ss25-main\\assignments\\assignment_1\\wandb\\run-20250508_213453-b803epb9\\logs\\debug-core.log"}
+{"time":"2025-05-08T21:34:54.6496114+02:00","level":"INFO","msg":"created new stream","id":"b803epb9"}
+{"time":"2025-05-08T21:34:54.6496114+02:00","level":"INFO","msg":"stream: started","id":"b803epb9"}
+{"time":"2025-05-08T21:34:54.6625793+02:00","level":"INFO","msg":"handler: started","stream_id":"b803epb9"}
+{"time":"2025-05-08T21:34:54.6675615+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"b803epb9"}
+{"time":"2025-05-08T21:34:54.6675615+02:00","level":"INFO","msg":"sender: started","stream_id":"b803epb9"}
+{"time":"2025-05-08T21:34:55.0146224+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-08T22:35:55.8526132+02:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/e12332263-tu-wien/DL_for_VC/b803epb9/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2025-05-08T22:47:14.2355954+02:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/e12332263-tu-wien/DL_for_VC/b803epb9/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2025-05-08T23:10:37.0522881+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/e12332263-tu-wien/DL_for_VC/b803epb9/file_stream\": read tcp 10.10.6.155:53291->35.186.228.49:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."}
+{"time":"2025-05-08T23:20:51.9974837+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/e12332263-tu-wien/DL_for_VC/b803epb9/file_stream\": read tcp 10.10.6.155:53599->35.186.228.49:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."}
+{"time":"2025-05-09T00:56:10.9168953+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-09T00:56:10.9168953+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-09T00:56:11.9048454+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.5308886,"progress":"195.2KB/195.2KB"},{"desc":"uploading config.yaml","runtime_seconds":0.3083553,"progress":"543B/543B"}],"total_operations":2}}
+{"time":"2025-05-09T00:56:12.3339288+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-09T00:56:13.5077772+02:00","level":"INFO","msg":"stream: closing","id":"b803epb9"}
+{"time":"2025-05-09T00:56:13.5077772+02:00","level":"INFO","msg":"handler: closed","stream_id":"b803epb9"}
+{"time":"2025-05-09T00:56:13.5077772+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"b803epb9"}
+{"time":"2025-05-09T00:56:13.5077772+02:00","level":"INFO","msg":"sender: closed","stream_id":"b803epb9"}
+{"time":"2025-05-09T00:56:13.5077772+02:00","level":"INFO","msg":"stream: closed","id":"b803epb9"}

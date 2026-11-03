@@ -1,0 +1,16 @@
+{"time":"2025-05-09T09:17:54.2238937+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"D:\\Master\\2025SS\\DL for Visual Computing\\assignment_1\\DL_assignment1\\dlvc_ss25-main\\assignments\\assignment_1\\wandb\\run-20250509_091754-42arqnhz\\logs\\debug-core.log"}
+{"time":"2025-05-09T09:17:54.5618514+02:00","level":"INFO","msg":"created new stream","id":"42arqnhz"}
+{"time":"2025-05-09T09:17:54.5618514+02:00","level":"INFO","msg":"stream: started","id":"42arqnhz"}
+{"time":"2025-05-09T09:17:54.5618514+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"42arqnhz"}
+{"time":"2025-05-09T09:17:54.5618514+02:00","level":"INFO","msg":"handler: started","stream_id":"42arqnhz"}
+{"time":"2025-05-09T09:17:54.5618514+02:00","level":"INFO","msg":"sender: started","stream_id":"42arqnhz"}
+{"time":"2025-05-09T09:17:54.8695763+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-09T09:38:51.7621475+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-09T09:38:51.7626768+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-09T09:38:52.6397022+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-09T09:38:52.7680632+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 35-35, summary, console lines 720-720","runtime_seconds":0.128361}],"total_operations":1}}
+{"time":"2025-05-09T09:38:53.2078748+02:00","level":"INFO","msg":"stream: closing","id":"42arqnhz"}
+{"time":"2025-05-09T09:38:53.2078748+02:00","level":"INFO","msg":"handler: closed","stream_id":"42arqnhz"}
+{"time":"2025-05-09T09:38:53.2078748+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"42arqnhz"}
+{"time":"2025-05-09T09:38:53.2078748+02:00","level":"INFO","msg":"sender: closed","stream_id":"42arqnhz"}
+{"time":"2025-05-09T09:38:53.2078748+02:00","level":"INFO","msg":"stream: closed","id":"42arqnhz"}

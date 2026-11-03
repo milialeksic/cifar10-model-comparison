@@ -1,0 +1,760 @@
+[Training] Epoch 0: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [02:53<00:00,  1.80it/s]
+[Validation] Epoch 0: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 79/79 [00:21<00:00,  3.73it/s]
+
+------- Training epoch results start -------
+
+______epoch 0
+Train loss: 1.4268
+Train accuracy: 0.4860
+Train per-class accuracy: 0.4861
+Accuracy for class: plane  is 53.09%
+Accuracy for class: car    is 60.89%
+Accuracy for class: bird   is 31.57%
+Accuracy for class: cat    is 33.06%
+Accuracy for class: deer   is 39.50%
+Accuracy for class: dog    is 39.07%
+Accuracy for class: frog   is 59.65%
+Accuracy for class: horse  is 55.11%
+Accuracy for class: ship   is 60.67%
+Accuracy for class: truck  is 53.49%
+
+------- Training epoch results end -------
+[Training] Epoch 1: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [02:57<00:00,  1.76it/s]
+
+
+------- Validation epoch results start -------
+
+______epoch 0
+Validation loss: 1.2019
+Validation accuracy: 0.5842
+Validation per class accuracy: 0.5838
+Accuracy for class: plane  is 0.64
+Accuracy for class: car    is 0.56
+Accuracy for class: bird   is 0.32
+Accuracy for class: cat    is 0.22
+Accuracy for class: deer   is 0.53
+Accuracy for class: dog    is 0.60
+Accuracy for class: frog   is 0.70
+Accuracy for class: horse  is 0.78
+Accuracy for class: ship   is 0.81
+Accuracy for class: truck  is 0.68
+
+------- Validation epoch results end -------
+
+New best model has been saved to ./saved_models/resnet_model/default/model_best.pth (PCAcc: 0.5838)
+[Training] Epoch 2: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [04:32<00:00,  1.15it/s]
+
+------- Training epoch results start -------
+
+______epoch 1
+Train loss: 1.0230
+Train accuracy: 0.6399
+Train per-class accuracy: 0.6399
+Accuracy for class: plane  is 67.86%
+Accuracy for class: car    is 74.79%
+Accuracy for class: bird   is 51.68%
+Accuracy for class: cat    is 45.18%
+Accuracy for class: deer   is 57.98%
+Accuracy for class: dog    is 51.90%
+Accuracy for class: frog   is 71.64%
+Accuracy for class: horse  is 70.42%
+Accuracy for class: ship   is 77.88%
+Accuracy for class: truck  is 70.61%
+
+------- Training epoch results end -------
+[Training] Epoch 3: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [03:02<00:00,  1.71it/s]
+
+
+------- Training epoch results start -------
+
+______epoch 2
+Train loss: 0.8396
+Train accuracy: 0.7072
+Train per-class accuracy: 0.7072
+Accuracy for class: plane  is 75.01%
+Accuracy for class: car    is 80.23%
+Accuracy for class: bird   is 60.62%
+Accuracy for class: cat    is 53.01%
+Accuracy for class: deer   is 66.50%
+Accuracy for class: dog    is 58.47%
+Accuracy for class: frog   is 76.99%
+Accuracy for class: horse  is 76.66%
+Accuracy for class: ship   is 82.36%
+Accuracy for class: truck  is 77.33%
+
+------- Training epoch results end -------
+[Training] Epoch 4: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [02:56<00:00,  1.77it/s]
+
+
+------- Training epoch results start -------
+
+______epoch 3
+Train loss: 0.7070
+Train accuracy: 0.7510
+Train per-class accuracy: 0.7510
+Accuracy for class: plane  is 78.83%
+Accuracy for class: car    is 85.07%
+Accuracy for class: bird   is 66.82%
+Accuracy for class: cat    is 57.30%
+Accuracy for class: deer   is 71.72%
+Accuracy for class: dog    is 63.47%
+Accuracy for class: frog   is 80.77%
+Accuracy for class: horse  is 79.37%
+Accuracy for class: ship   is 85.61%
+Accuracy for class: truck  is 82.03%
+
+------- Training epoch results end -------
+[Training] Epoch 5: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [02:39<00:00,  1.97it/s]
+
+
+------- Training epoch results start -------
+
+______epoch 4
+Train loss: 0.5907
+Train accuracy: 0.7940
+Train per-class accuracy: 0.7940
+Accuracy for class: plane  is 82.54%
+Accuracy for class: car    is 87.81%
+Accuracy for class: bird   is 72.11%
+Accuracy for class: cat    is 64.78%
+Accuracy for class: deer   is 76.47%
+Accuracy for class: dog    is 68.48%
+Accuracy for class: frog   is 84.03%
+Accuracy for class: horse  is 83.72%
+Accuracy for class: ship   is 88.27%
+Accuracy for class: truck  is 85.82%
+
+------- Training epoch results end -------
+[Validation] Epoch 5: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 79/79 [00:20<00:00,  3.84it/s]
+
+
+------- Training epoch results start -------
+
+______epoch 5
+Train loss: 0.4942
+Train accuracy: 0.8274
+Train per-class accuracy: 0.8273
+Accuracy for class: plane  is 85.45%
+Accuracy for class: car    is 90.04%
+Accuracy for class: bird   is 76.95%
+Accuracy for class: cat    is 68.30%
+Accuracy for class: deer   is 81.11%
+Accuracy for class: dog    is 72.96%
+Accuracy for class: frog   is 87.01%
+Accuracy for class: horse  is 86.93%
+Accuracy for class: ship   is 90.52%
+Accuracy for class: truck  is 88.06%
+
+------- Training epoch results end -------
+[Training] Epoch 6: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [02:53<00:00,  1.80it/s]
+
+
+------- Validation epoch results start -------
+
+______epoch 5
+Validation loss: 0.8327
+Validation accuracy: 0.7302
+Validation per class accuracy: 0.7307
+Accuracy for class: plane  is 0.75
+Accuracy for class: car    is 0.79
+Accuracy for class: bird   is 0.71
+Accuracy for class: cat    is 0.62
+Accuracy for class: deer   is 0.67
+Accuracy for class: dog    is 0.55
+Accuracy for class: frog   is 0.79
+Accuracy for class: horse  is 0.78
+Accuracy for class: ship   is 0.88
+Accuracy for class: truck  is 0.77
+
+------- Validation epoch results end -------
+
+New best model has been saved to ./saved_models/resnet_model/default/model_best.pth (PCAcc: 0.7307)
+[Training] Epoch 7: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [02:44<00:00,  1.90it/s]
+
+------- Training epoch results start -------
+
+______epoch 6
+Train loss: 0.4076
+Train accuracy: 0.8570
+Train per-class accuracy: 0.8570
+Accuracy for class: plane  is 88.21%
+Accuracy for class: car    is 91.77%
+Accuracy for class: bird   is 80.24%
+Accuracy for class: cat    is 74.17%
+Accuracy for class: deer   is 84.51%
+Accuracy for class: dog    is 77.13%
+Accuracy for class: frog   is 89.45%
+Accuracy for class: horse  is 89.06%
+Accuracy for class: ship   is 92.19%
+Accuracy for class: truck  is 90.22%
+
+------- Training epoch results end -------
+[Training] Epoch 8: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [02:59<00:00,  1.75it/s]
+
+
+------- Training epoch results start -------
+
+______epoch 7
+Train loss: 0.3296
+Train accuracy: 0.8841
+Train per-class accuracy: 0.8840
+Accuracy for class: plane  is 90.24%
+Accuracy for class: car    is 93.20%
+Accuracy for class: bird   is 85.03%
+Accuracy for class: cat    is 78.56%
+Accuracy for class: deer   is 87.11%
+Accuracy for class: dog    is 81.28%
+Accuracy for class: frog   is 91.79%
+Accuracy for class: horse  is 91.85%
+Accuracy for class: ship   is 92.92%
+Accuracy for class: truck  is 92.06%
+
+------- Training epoch results end -------
+[Training] Epoch 9: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [02:52<00:00,  1.81it/s]
+
+
+------- Training epoch results start -------
+
+______epoch 8
+Train loss: 0.2644
+Train accuracy: 0.9062
+Train per-class accuracy: 0.9062
+Accuracy for class: plane  is 92.02%
+Accuracy for class: car    is 94.78%
+Accuracy for class: bird   is 87.85%
+Accuracy for class: cat    is 82.66%
+Accuracy for class: deer   is 89.78%
+Accuracy for class: dog    is 84.50%
+Accuracy for class: frog   is 92.84%
+Accuracy for class: horse  is 93.36%
+Accuracy for class: ship   is 94.55%
+Accuracy for class: truck  is 93.87%
+
+------- Training epoch results end -------
+[Training] Epoch 10: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [03:11<00:00,  1.64it/s]
+
+
+------- Training epoch results start -------
+
+______epoch 9
+Train loss: 0.2090
+Train accuracy: 0.9269
+Train per-class accuracy: 0.9269
+Accuracy for class: plane  is 93.65%
+Accuracy for class: car    is 96.19%
+Accuracy for class: bird   is 90.07%
+Accuracy for class: cat    is 86.57%
+Accuracy for class: deer   is 91.61%
+Accuracy for class: dog    is 88.30%
+Accuracy for class: frog   is 94.43%
+Accuracy for class: horse  is 94.90%
+Accuracy for class: ship   is 96.12%
+Accuracy for class: truck  is 95.05%
+
+------- Training epoch results end -------
+[Validation] Epoch 10: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 79/79 [00:20<00:00,  3.82it/s]
+
+
+------- Training epoch results start -------
+
+______epoch 10
+Train loss: 0.1842
+Train accuracy: 0.9357
+Train per-class accuracy: 0.9357
+Accuracy for class: plane  is 94.41%
+Accuracy for class: car    is 96.21%
+Accuracy for class: bird   is 91.53%
+Accuracy for class: cat    is 88.81%
+Accuracy for class: deer   is 92.21%
+Accuracy for class: dog    is 90.84%
+Accuracy for class: frog   is 95.05%
+Accuracy for class: horse  is 95.13%
+Accuracy for class: ship   is 95.62%
+Accuracy for class: truck  is 95.88%
+
+------- Training epoch results end -------
+[Training] Epoch 11: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [03:06<00:00,  1.67it/s]
+
+
+------- Validation epoch results start -------
+
+______epoch 10
+Validation loss: 1.0580
+Validation accuracy: 0.7366
+Validation per class accuracy: 0.7364
+Accuracy for class: plane  is 0.84
+Accuracy for class: car    is 0.88
+Accuracy for class: bird   is 0.63
+Accuracy for class: cat    is 0.47
+Accuracy for class: deer   is 0.67
+Accuracy for class: dog    is 0.64
+Accuracy for class: frog   is 0.73
+Accuracy for class: horse  is 0.85
+Accuracy for class: ship   is 0.84
+Accuracy for class: truck  is 0.82
+
+------- Validation epoch results end -------
+
+New best model has been saved to ./saved_models/resnet_model/default/model_best.pth (PCAcc: 0.7364)
+[Training] Epoch 12: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [4:53:41<00:00, 56.30s/it]
+
+------- Training epoch results start -------
+
+______epoch 11
+Train loss: 0.1538
+Train accuracy: 0.9458
+Train per-class accuracy: 0.9458
+Accuracy for class: plane  is 94.83%
+Accuracy for class: car    is 96.19%
+Accuracy for class: bird   is 92.69%
+Accuracy for class: cat    is 90.99%
+Accuracy for class: deer   is 94.30%
+Accuracy for class: dog    is 92.43%
+Accuracy for class: frog   is 95.72%
+Accuracy for class: horse  is 96.37%
+Accuracy for class: ship   is 96.45%
+Accuracy for class: truck  is 95.85%
+
+------- Training epoch results end -------
+[Training] Epoch 13: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [03:21<00:00,  1.55it/s]
+
+
+------- Training epoch results start -------
+
+______epoch 12
+Train loss: 0.1229
+Train accuracy: 0.9579
+Train per-class accuracy: 0.9579
+Accuracy for class: plane  is 96.34%
+Accuracy for class: car    is 97.64%
+Accuracy for class: bird   is 94.34%
+Accuracy for class: cat    is 92.97%
+Accuracy for class: deer   is 95.28%
+Accuracy for class: dog    is 94.16%
+Accuracy for class: frog   is 96.59%
+Accuracy for class: horse  is 96.59%
+Accuracy for class: ship   is 97.50%
+Accuracy for class: truck  is 96.48%
+
+------- Training epoch results end -------
+[Training] Epoch 14: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [05:23<00:00,  1.03s/it]
+
+
+------- Training epoch results start -------
+
+______epoch 13
+Train loss: 0.1217
+Train accuracy: 0.9578
+Train per-class accuracy: 0.9578
+Accuracy for class: plane  is 95.96%
+Accuracy for class: car    is 97.57%
+Accuracy for class: bird   is 94.99%
+Accuracy for class: cat    is 92.65%
+Accuracy for class: deer   is 94.88%
+Accuracy for class: dog    is 94.11%
+Accuracy for class: frog   is 96.54%
+Accuracy for class: horse  is 97.07%
+Accuracy for class: ship   is 96.97%
+Accuracy for class: truck  is 97.06%
+
+------- Training epoch results end -------
+[Training] Epoch 15: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [05:24<00:00,  1.04s/it]
+
+
+------- Training epoch results start -------
+
+______epoch 14
+Train loss: 0.1017
+Train accuracy: 0.9644
+Train per-class accuracy: 0.9644
+Accuracy for class: plane  is 96.71%
+Accuracy for class: car    is 97.69%
+Accuracy for class: bird   is 95.87%
+Accuracy for class: cat    is 93.85%
+Accuracy for class: deer   is 96.18%
+Accuracy for class: dog    is 94.92%
+Accuracy for class: frog   is 96.74%
+Accuracy for class: horse  is 97.46%
+Accuracy for class: ship   is 97.82%
+Accuracy for class: truck  is 97.13%
+
+------- Training epoch results end -------
+[Validation] Epoch 15: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 79/79 [00:36<00:00,  2.19it/s]
+
+
+------- Training epoch results start -------
+
+______epoch 15
+Train loss: 0.0983
+Train accuracy: 0.9659
+Train per-class accuracy: 0.9659
+Accuracy for class: plane  is 96.64%
+Accuracy for class: car    is 98.04%
+Accuracy for class: bird   is 95.78%
+Accuracy for class: cat    is 94.30%
+Accuracy for class: deer   is 96.13%
+Accuracy for class: dog    is 95.40%
+Accuracy for class: frog   is 97.39%
+Accuracy for class: horse  is 97.07%
+Accuracy for class: ship   is 97.72%
+Accuracy for class: truck  is 97.41%
+
+------- Training epoch results end -------
+[Training] Epoch 16: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [05:45<00:00,  1.10s/it]
+
+
+------- Validation epoch results start -------
+
+______epoch 15
+Validation loss: 1.1286
+Validation accuracy: 0.7556
+Validation per class accuracy: 0.7554
+Accuracy for class: plane  is 0.80
+Accuracy for class: car    is 0.88
+Accuracy for class: bird   is 0.69
+Accuracy for class: cat    is 0.66
+Accuracy for class: deer   is 0.76
+Accuracy for class: dog    is 0.58
+Accuracy for class: frog   is 0.76
+Accuracy for class: horse  is 0.75
+Accuracy for class: ship   is 0.84
+Accuracy for class: truck  is 0.84
+
+------- Validation epoch results end -------
+
+New best model has been saved to ./saved_models/resnet_model/default/model_best.pth (PCAcc: 0.7554)
+[Training] Epoch 17: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [05:51<00:00,  1.12s/it]
+
+------- Training epoch results start -------
+
+______epoch 16
+Train loss: 0.0845
+Train accuracy: 0.9711
+Train per-class accuracy: 0.9712
+Accuracy for class: plane  is 97.27%
+Accuracy for class: car    is 98.04%
+Accuracy for class: bird   is 96.17%
+Accuracy for class: cat    is 95.63%
+Accuracy for class: deer   is 96.80%
+Accuracy for class: dog    is 96.08%
+Accuracy for class: frog   is 97.46%
+Accuracy for class: horse  is 97.84%
+Accuracy for class: ship   is 98.20%
+Accuracy for class: truck  is 97.66%
+
+------- Training epoch results end -------
+[Training] Epoch 18: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [05:59<00:00,  1.15s/it]
+
+
+------- Training epoch results start -------
+
+______epoch 17
+Train loss: 0.0801
+Train accuracy: 0.9730
+Train per-class accuracy: 0.9730
+Accuracy for class: plane  is 97.42%
+Accuracy for class: car    is 98.42%
+Accuracy for class: bird   is 96.57%
+Accuracy for class: cat    is 95.58%
+Accuracy for class: deer   is 96.95%
+Accuracy for class: dog    is 96.05%
+Accuracy for class: frog   is 98.03%
+Accuracy for class: horse  is 98.04%
+Accuracy for class: ship   is 98.15%
+Accuracy for class: truck  is 97.79%
+
+------- Training epoch results end -------
+[Training] Epoch 19: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [03:10<00:00,  1.64it/s]
+
+
+------- Training epoch results start -------
+
+______epoch 18
+Train loss: 0.0797
+Train accuracy: 0.9731
+Train per-class accuracy: 0.9731
+Accuracy for class: plane  is 97.42%
+Accuracy for class: car    is 98.09%
+Accuracy for class: bird   is 96.54%
+Accuracy for class: cat    is 95.66%
+Accuracy for class: deer   is 96.90%
+Accuracy for class: dog    is 96.48%
+Accuracy for class: frog   is 97.79%
+Accuracy for class: horse  is 98.56%
+Accuracy for class: ship   is 98.07%
+Accuracy for class: truck  is 97.56%
+
+------- Training epoch results end -------
+[Training] Epoch 20: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [03:11<00:00,  1.64it/s]
+
+
+------- Training epoch results start -------
+
+______epoch 19
+Train loss: 0.0785
+Train accuracy: 0.9725
+Train per-class accuracy: 0.9725
+Accuracy for class: plane  is 97.32%
+Accuracy for class: car    is 98.24%
+Accuracy for class: bird   is 96.15%
+Accuracy for class: cat    is 95.93%
+Accuracy for class: deer   is 96.45%
+Accuracy for class: dog    is 96.65%
+Accuracy for class: frog   is 97.41%
+Accuracy for class: horse  is 98.41%
+Accuracy for class: ship   is 98.10%
+Accuracy for class: truck  is 97.86%
+
+------- Training epoch results end -------
+[Validation] Epoch 20: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 79/79 [00:20<00:00,  3.83it/s]
+
+
+------- Training epoch results start -------
+
+______epoch 20
+Train loss: 0.0725
+Train accuracy: 0.9749
+Train per-class accuracy: 0.9749
+Accuracy for class: plane  is 97.24%
+Accuracy for class: car    is 98.54%
+Accuracy for class: bird   is 97.13%
+Accuracy for class: cat    is 96.46%
+Accuracy for class: deer   is 97.30%
+Accuracy for class: dog    is 96.86%
+Accuracy for class: frog   is 97.71%
+Accuracy for class: horse  is 97.86%
+Accuracy for class: ship   is 98.20%
+Accuracy for class: truck  is 97.64%
+
+------- Training epoch results end -------
+[Training] Epoch 21: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [03:05<00:00,  1.69it/s]
+
+
+------- Validation epoch results start -------
+
+______epoch 20
+Validation loss: 1.2872
+Validation accuracy: 0.7452
+Validation per class accuracy: 0.7447
+Accuracy for class: plane  is 0.78
+Accuracy for class: car    is 0.88
+Accuracy for class: bird   is 0.61
+Accuracy for class: cat    is 0.56
+Accuracy for class: deer   is 0.71
+Accuracy for class: dog    is 0.67
+Accuracy for class: frog   is 0.73
+Accuracy for class: horse  is 0.81
+Accuracy for class: ship   is 0.87
+Accuracy for class: truck  is 0.83
+
+------- Validation epoch results end -------
+[Training] Epoch 22: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [03:02<00:00,  1.71it/s]
+
+
+------- Training epoch results start -------
+
+______epoch 21
+Train loss: 0.0681
+Train accuracy: 0.9765
+Train per-class accuracy: 0.9764
+Accuracy for class: plane  is 98.02%
+Accuracy for class: car    is 98.39%
+Accuracy for class: bird   is 96.91%
+Accuracy for class: cat    is 96.21%
+Accuracy for class: deer   is 97.43%
+Accuracy for class: dog    is 96.68%
+Accuracy for class: frog   is 98.51%
+Accuracy for class: horse  is 98.14%
+Accuracy for class: ship   is 98.00%
+Accuracy for class: truck  is 98.16%
+
+------- Training epoch results end -------
+[Training] Epoch 23: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [02:44<00:00,  1.91it/s]
+
+
+------- Training epoch results start -------
+
+______epoch 22
+Train loss: 0.0648
+Train accuracy: 0.9771
+Train per-class accuracy: 0.9771
+Accuracy for class: plane  is 98.27%
+Accuracy for class: car    is 98.70%
+Accuracy for class: bird   is 96.81%
+Accuracy for class: cat    is 96.26%
+Accuracy for class: deer   is 97.18%
+Accuracy for class: dog    is 96.65%
+Accuracy for class: frog   is 98.13%
+Accuracy for class: horse  is 97.91%
+Accuracy for class: ship   is 98.57%
+Accuracy for class: truck  is 98.62%
+
+------- Training epoch results end -------
+[Training] Epoch 24: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [02:52<00:00,  1.82it/s]
+
+
+------- Training epoch results start -------
+
+______epoch 23
+Train loss: 0.0595
+Train accuracy: 0.9788
+Train per-class accuracy: 0.9788
+Accuracy for class: plane  is 97.84%
+Accuracy for class: car    is 98.67%
+Accuracy for class: bird   is 96.84%
+Accuracy for class: cat    is 96.46%
+Accuracy for class: deer   is 98.08%
+Accuracy for class: dog    is 97.31%
+Accuracy for class: frog   is 98.11%
+Accuracy for class: horse  is 98.51%
+Accuracy for class: ship   is 98.50%
+Accuracy for class: truck  is 98.44%
+
+------- Training epoch results end -------
+[Training] Epoch 25: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [02:44<00:00,  1.91it/s]
+
+
+------- Training epoch results start -------
+
+______epoch 24
+Train loss: 0.0707
+Train accuracy: 0.9745
+Train per-class accuracy: 0.9745
+Accuracy for class: plane  is 97.37%
+Accuracy for class: car    is 98.24%
+Accuracy for class: bird   is 96.86%
+Accuracy for class: cat    is 96.41%
+Accuracy for class: deer   is 97.10%
+Accuracy for class: dog    is 96.86%
+Accuracy for class: frog   is 97.59%
+Accuracy for class: horse  is 97.96%
+Accuracy for class: ship   is 98.17%
+Accuracy for class: truck  is 97.94%
+
+------- Training epoch results end -------
+[Validation] Epoch 25: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 79/79 [00:20<00:00,  3.94it/s]
+
+
+------- Training epoch results start -------
+
+______epoch 25
+Train loss: 0.0550
+Train accuracy: 0.9808
+Train per-class accuracy: 0.9808
+Accuracy for class: plane  is 98.12%
+Accuracy for class: car    is 98.70%
+Accuracy for class: bird   is 97.75%
+Accuracy for class: cat    is 96.81%
+Accuracy for class: deer   is 97.85%
+Accuracy for class: dog    is 97.64%
+Accuracy for class: frog   is 98.61%
+Accuracy for class: horse  is 98.51%
+Accuracy for class: ship   is 98.55%
+Accuracy for class: truck  is 98.32%
+
+------- Training epoch results end -------
+[Training] Epoch 26: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [02:33<00:00,  2.05it/s]
+
+
+------- Validation epoch results start -------
+
+______epoch 25
+Validation loss: 1.3680
+Validation accuracy: 0.7477
+Validation per class accuracy: 0.7477
+Accuracy for class: plane  is 0.75
+Accuracy for class: car    is 0.85
+Accuracy for class: bird   is 0.65
+Accuracy for class: cat    is 0.59
+Accuracy for class: deer   is 0.67
+Accuracy for class: dog    is 0.62
+Accuracy for class: frog   is 0.83
+Accuracy for class: horse  is 0.81
+Accuracy for class: ship   is 0.86
+Accuracy for class: truck  is 0.86
+
+------- Validation epoch results end -------
+[Training] Epoch 27: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [02:31<00:00,  2.07it/s]
+
+
+------- Training epoch results start -------
+
+______epoch 26
+Train loss: 0.0500
+Train accuracy: 0.9830
+Train per-class accuracy: 0.9830
+Accuracy for class: plane  is 98.62%
+Accuracy for class: car    is 98.90%
+Accuracy for class: bird   is 97.33%
+Accuracy for class: cat    is 97.46%
+Accuracy for class: deer   is 98.18%
+Accuracy for class: dog    is 97.66%
+Accuracy for class: frog   is 98.66%
+Accuracy for class: horse  is 98.71%
+Accuracy for class: ship   is 98.90%
+Accuracy for class: truck  is 98.59%
+
+------- Training epoch results end -------
+[Training] Epoch 28: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [03:00<00:00,  1.73it/s]
+
+
+------- Training epoch results start -------
+
+______epoch 27
+Train loss: 0.0514
+Train accuracy: 0.9817
+Train per-class accuracy: 0.9816
+Accuracy for class: plane  is 98.07%
+Accuracy for class: car    is 98.60%
+Accuracy for class: bird   is 97.78%
+Accuracy for class: cat    is 97.41%
+Accuracy for class: deer   is 98.20%
+Accuracy for class: dog    is 97.48%
+Accuracy for class: frog   is 98.53%
+Accuracy for class: horse  is 98.53%
+Accuracy for class: ship   is 98.60%
+Accuracy for class: truck  is 98.44%
+
+------- Training epoch results end -------
+[Training] Epoch 29: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [03:43<00:00,  1.40it/s]
+
+
+------- Training epoch results start -------
+
+______epoch 28
+Train loss: 0.0579
+Train accuracy: 0.9808
+Train per-class accuracy: 0.9808
+Accuracy for class: plane  is 98.19%
+Accuracy for class: car    is 98.70%
+Accuracy for class: bird   is 97.63%
+Accuracy for class: cat    is 97.46%
+Accuracy for class: deer   is 97.95%
+Accuracy for class: dog    is 97.21%
+Accuracy for class: frog   is 98.38%
+Accuracy for class: horse  is 98.53%
+Accuracy for class: ship   is 98.62%
+Accuracy for class: truck  is 98.11%
+
+------- Training epoch results end -------
+Training Epochs: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [6:37:19<00:00, 794.66s/it]
+
+
+------- Training epoch results start -------
+
+______epoch 29
+Train loss: 0.0465
+Train accuracy: 0.9843
+Train per-class accuracy: 0.9843
+Accuracy for class: plane  is 98.67%
+Accuracy for class: car    is 99.17%
+Accuracy for class: bird   is 97.95%
+Accuracy for class: cat    is 97.44%
+Accuracy for class: deer   is 98.28%
+Accuracy for class: dog    is 97.53%
+Accuracy for class: frog   is 98.51%
+Accuracy for class: horse  is 98.71%
+Accuracy for class: ship   is 98.97%
+Accuracy for class: truck  is 99.07%
+
+------- Training epoch results end -------

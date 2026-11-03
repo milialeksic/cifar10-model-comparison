@@ -1,0 +1,50 @@
+[Training] Epoch 0: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [00:26<00:00, 11.96it/s]
+[Validation] Epoch 0: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 79/79 [00:03<00:00, 20.68it/s]
+
+------- Training epoch results start -------
+
+______epoch 0
+Train loss: 1.6541
+Train accuracy: 0.3859
+Train per-class accuracy: 0.3862
+Accuracy for class: plane  is 44.03%
+Accuracy for class: car    is 51.35%
+Accuracy for class: bird   is 16.43%
+Accuracy for class: cat    is 22.82%
+Accuracy for class: deer   is 24.11%
+Accuracy for class: dog    is 35.42%
+Accuracy for class: frog   is 51.67%
+Accuracy for class: horse  is 43.13%
+Accuracy for class: ship   is 47.94%
+Accuracy for class: truck  is 49.27%
+
+------- Training epoch results end -------
+Training Epochs:   0%|                                                                                                                                                                                                    | 0/30 [00:30<?, ?it/s]
+
+
+------- Validation epoch results start -------
+
+______epoch 0
+Validation loss: 1.3908
+Validation accuracy: 0.4924
+Validation per class accuracy: 0.4926
+Accuracy for class: plane  is 0.58
+Accuracy for class: car    is 0.70
+Accuracy for class: bird   is 0.33
+Accuracy for class: cat    is 0.21
+Accuracy for class: deer   is 0.39
+Accuracy for class: dog    is 0.24
+Accuracy for class: frog   is 0.68
+Accuracy for class: horse  is 0.58
+Accuracy for class: ship   is 0.64
+Accuracy for class: truck  is 0.58
+
+------- Validation epoch results end -------
+Traceback (most recent call last):
+  File "D:\Master\2025SS\DL for Visual Computing\assignment_1\DL_assignment1\dlvc_ss25-main\assignments\assignment_1\train_yourCNN.py", line 79, in <module>
+    train(args.data_dir,regularization_mode = "default")
+  File "D:\Master\2025SS\DL for Visual Computing\assignment_1\DL_assignment1\dlvc_ss25-main\assignments\assignment_1\train_yourCNN.py", line 70, in train
+    trainer.train()
+  File "D:\Master\2025SS\DL for Visual Computing\assignment_1\DL_assignment1\dlvc_ss25-main\assignments\assignment_1\assignment_1_code\trainer.py", line 261, in train
+    model_path = self.training_save_dir +"model_best.pth"
+TypeError: unsupported operand type(s) for +: 'WindowsPath' and 'str'

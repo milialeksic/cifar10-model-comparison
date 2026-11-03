@@ -1,0 +1,16 @@
+{"time":"2025-05-06T20:27:16.2953969+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"C:\\Users\\aleks\\milica\\master_tuw\\master_tuw\\2_semester\\dl_in_vc\\DL_assignment1\\dlvc_ss25-main\\assignments\\assignment_1\\wandb\\run-20250506_202716-aooh26za\\logs\\debug-core.log"}
+{"time":"2025-05-06T20:27:17.1530136+02:00","level":"INFO","msg":"created new stream","id":"aooh26za"}
+{"time":"2025-05-06T20:27:17.1530136+02:00","level":"INFO","msg":"stream: started","id":"aooh26za"}
+{"time":"2025-05-06T20:27:17.1530136+02:00","level":"INFO","msg":"sender: started","stream_id":"aooh26za"}
+{"time":"2025-05-06T20:27:17.1530136+02:00","level":"INFO","msg":"handler: started","stream_id":"aooh26za"}
+{"time":"2025-05-06T20:27:17.1535553+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"aooh26za"}
+{"time":"2025-05-06T20:27:17.4246519+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-06T22:45:33.8292417+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-06T22:45:33.8292417+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-06T22:45:34.8456622+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.4373912,"progress":"35.6KB/35.6KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.4373912,"progress":"248.2KB/248.2KB"},{"desc":"uploading config.yaml","runtime_seconds":0.216549,"progress":"543B/543B"}],"total_operations":3}}
+{"time":"2025-05-06T22:45:35.3553207+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-06T22:45:35.923793+02:00","level":"INFO","msg":"stream: closing","id":"aooh26za"}
+{"time":"2025-05-06T22:45:35.923793+02:00","level":"INFO","msg":"handler: closed","stream_id":"aooh26za"}
+{"time":"2025-05-06T22:45:35.923793+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"aooh26za"}
+{"time":"2025-05-06T22:45:35.923793+02:00","level":"INFO","msg":"sender: closed","stream_id":"aooh26za"}
+{"time":"2025-05-06T22:45:35.9242969+02:00","level":"INFO","msg":"stream: closed","id":"aooh26za"}

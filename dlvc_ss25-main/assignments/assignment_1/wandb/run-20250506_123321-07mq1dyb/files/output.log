@@ -1,0 +1,82 @@
+hoce2
+[Training] Epoch 0: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [03:09<00:00,  1.65it/s]
+[Validation] Epoch 0: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 79/79 [00:22<00:00,  3.47it/s]
+
+------- Training epoch results start -------
+
+______epoch 0
+Train loss: 1.8736
+Train accuracy: 0.3049
+Train per-class accuracy: 0.3051
+Accuracy for class: plane  is 38.89%
+Accuracy for class: car    is 36.60%
+Accuracy for class: bird   is 13.22%
+Accuracy for class: cat    is 17.90%
+Accuracy for class: deer   is 21.33%
+Accuracy for class: dog    is 25.03%
+Accuracy for class: frog   is 41.32%
+Accuracy for class: horse  is 33.13%
+Accuracy for class: ship   is 41.13%
+Accuracy for class: truck  is 36.55%
+
+------- Training epoch results end -------
+[Training] Epoch 1: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [04:39<00:00,  1.12it/s]
+
+
+------- Validation epoch results start -------
+
+______epoch 0
+Validation loss: 1.5486
+Validation accuracy: 0.4319
+Validation per class accuracy: 0.4319
+Accuracy for class: plane  is 0.44
+Accuracy for class: car    is 0.39
+Accuracy for class: bird   is 0.30
+Accuracy for class: cat    is 0.16
+Accuracy for class: deer   is 0.56
+Accuracy for class: dog    is 0.35
+Accuracy for class: frog   is 0.48
+Accuracy for class: horse  is 0.44
+Accuracy for class: ship   is 0.68
+Accuracy for class: truck  is 0.52
+
+------- Validation epoch results end -------
+
+New best model has been saved to saved_models\ResNet_model_best.pth (PCAcc: 0.4319)
+[Training] Epoch 2:  32%|█████████                   | 101/313 [01:04<02:15,  1.57it/s]                                                   | 2/50 [08:12<3:21:40, 252.10s/it]
+
+------- Training epoch results start -------
+
+______epoch 1
+Train loss: 1.4985
+Train accuracy: 0.4518
+Train per-class accuracy: 0.4520
+Accuracy for class: plane  is 47.32%
+Accuracy for class: car    is 59.33%
+Accuracy for class: bird   is 30.11%
+Accuracy for class: cat    is 27.66%
+Accuracy for class: deer   is 33.40%
+Accuracy for class: dog    is 39.87%
+Accuracy for class: frog   is 53.38%
+Accuracy for class: horse  is 50.86%
+Accuracy for class: ship   is 60.37%
+Accuracy for class: truck  is 49.65%
+
+------- Training epoch results end -------
+Training Epochs:   4%|████▋                                                                                                               | 2/50 [09:16<3:42:41, 278.36s/it]
+Traceback (most recent call last):
+  File "C:\Users\aleks\milica\master_tuw\master_tuw\2_semester\dl_in_vc\DL_assignment1\dlvc_ss25-main\assignments\assignment_1\train_yourViT.py", line 45, in <module>
+    trainer.train()
+  File "C:\Users\aleks\milica\master_tuw\master_tuw\2_semester\dl_in_vc\DL_assignment1\dlvc_ss25-main\assignments\assignment_1\assignment_1_code\trainer.py", line 251, in train
+    train_loss, train_acc, train_pcacc = self._train_epoch(epoch)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aleks\milica\master_tuw\master_tuw\2_semester\dl_in_vc\DL_assignment1\dlvc_ss25-main\assignments\assignment_1\assignment_1_code\trainer.py", line 141, in _train_epoch
+    loss.backward()
+  File "C:\Users\aleks\milica\master_tuw\master_tuw\2_semester\dl_in_vc\DL_assignment1\dlvc_ss25-main\assignments\assignment_1\.venv\Lib\site-packages\torch\_tensor.py", line 626, in backward
+    torch.autograd.backward(
+  File "C:\Users\aleks\milica\master_tuw\master_tuw\2_semester\dl_in_vc\DL_assignment1\dlvc_ss25-main\assignments\assignment_1\.venv\Lib\site-packages\torch\autograd\__init__.py", line 347, in backward
+    _engine_run_backward(
+  File "C:\Users\aleks\milica\master_tuw\master_tuw\2_semester\dl_in_vc\DL_assignment1\dlvc_ss25-main\assignments\assignment_1\.venv\Lib\site-packages\torch\autograd\graph.py", line 823, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

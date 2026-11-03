@@ -1,0 +1,15 @@
+Za svaki model mi cemo da uradimo sledece stvari 
+
+Training
+	
+    # train(args.data_dir,regularization_mode = "default") -> vit
+    # train(args.data_dir,regularization_mode = "augmentation") -> vit
+    # train(args.data_dir,regularization_mode = "weight_decay") -> vit
+    # train(args.data_dir,regularization_mode = "learning_rate") -> vit
+    # train(args.data_dir,regularization_mode = "augmentation_weight_decay") -> vit
+    # train(args.data_dir,regularization_mode = "augmentation_learning_rate") -> vit
+    # train(args.data_dir,regularization_mode = "augmentation_weight_decay_learning_rate") 
+
+Test 
+	
+   za svaki sacuvani model, na njega uraditi sa test podacima.

@@ -1,0 +1,15 @@
+{"time":"2025-05-06T12:18:36.9584659+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"C:\\Users\\aleks\\milica\\master_tuw\\master_tuw\\2_semester\\dl_in_vc\\DL_assignment1\\dlvc_ss25-main\\assignments\\assignment_1\\wandb\\run-20250506_121836-i2kx6p8n\\logs\\debug-core.log"}
+{"time":"2025-05-06T12:18:37.9350146+02:00","level":"INFO","msg":"created new stream","id":"i2kx6p8n"}
+{"time":"2025-05-06T12:18:37.9350146+02:00","level":"INFO","msg":"stream: started","id":"i2kx6p8n"}
+{"time":"2025-05-06T12:18:37.9355677+02:00","level":"INFO","msg":"handler: started","stream_id":"i2kx6p8n"}
+{"time":"2025-05-06T12:18:37.9355677+02:00","level":"INFO","msg":"sender: started","stream_id":"i2kx6p8n"}
+{"time":"2025-05-06T12:18:37.9355677+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"i2kx6p8n"}
+{"time":"2025-05-06T12:18:38.2134456+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-06T12:18:40.8324821+02:00","level":"INFO","msg":"stream: closing","id":"i2kx6p8n"}
+{"time":"2025-05-06T12:18:40.8324821+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-06T12:18:40.832994+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-06T12:18:41.7882679+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-06T12:18:42.0575569+02:00","level":"INFO","msg":"sender: closed","stream_id":"i2kx6p8n"}
+{"time":"2025-05-06T12:18:42.0575569+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"i2kx6p8n"}
+{"time":"2025-05-06T12:18:42.0575569+02:00","level":"INFO","msg":"handler: closed","stream_id":"i2kx6p8n"}
+{"time":"2025-05-06T12:18:42.0580644+02:00","level":"INFO","msg":"stream: closed","id":"i2kx6p8n"}

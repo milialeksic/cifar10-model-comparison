@@ -1,0 +1,61 @@
+[Training] Epoch 0: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [01:14<00:00,  4.20it/s]
+[Validation] Epoch 0: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 79/79 [00:14<00:00,  5.54it/s]
+
+------- Training epoch results start -------
+
+______epoch 0
+Train loss: 1.7121
+Train accuracy: 0.3688
+Train per-class accuracy: 0.3689
+Accuracy for class: plane  is 41.04%
+Accuracy for class: car    is 47.54%
+Accuracy for class: bird   is 20.31%
+Accuracy for class: cat    is 24.67%
+Accuracy for class: deer   is 27.10%
+Accuracy for class: dog    is 29.13%
+Accuracy for class: frog   is 44.93%
+Accuracy for class: horse  is 40.74%
+Accuracy for class: ship   is 49.86%
+Accuracy for class: truck  is 43.61%
+
+------- Training epoch results end -------
+Training Epochs:   0%|                                                                                                                               | 0/50 [01:28<?, ?it/s]
+
+
+------- Validation epoch results start -------
+
+______epoch 0
+Validation loss: 1.4215
+Validation accuracy: 0.4902
+Validation per class accuracy: 0.4896
+Accuracy for class: plane  is 0.45
+Accuracy for class: car    is 0.64
+Accuracy for class: bird   is 0.28
+Accuracy for class: cat    is 0.42
+Accuracy for class: deer   is 0.37
+Accuracy for class: dog    is 0.32
+Accuracy for class: frog   is 0.53
+Accuracy for class: horse  is 0.57
+Accuracy for class: ship   is 0.77
+Accuracy for class: truck  is 0.55
+
+------- Validation epoch results end -------
+Traceback (most recent call last):
+  File "C:\Users\aleks\milica\master_tuw\master_tuw\2_semester\dl_in_vc\DL_assignment1\dlvc_ss25-main\assignments\assignment_1\train_yourViT.py", line 70, in <module>
+    train(args.data_dir,regularization_mode = "default")
+  File "C:\Users\aleks\milica\master_tuw\master_tuw\2_semester\dl_in_vc\DL_assignment1\dlvc_ss25-main\assignments\assignment_1\train_yourViT.py", line 60, in train
+    trainer.train()
+  File "C:\Users\aleks\milica\master_tuw\master_tuw\2_semester\dl_in_vc\DL_assignment1\dlvc_ss25-main\assignments\assignment_1\assignment_1_code\trainer.py", line 262, in train
+    self.model.save(model_path)
+  File "C:\Users\aleks\milica\master_tuw\master_tuw\2_semester\dl_in_vc\DL_assignment1\dlvc_ss25-main\assignments\assignment_1\assignment_1_code\models\class_model.py", line 25, in save
+    torch.save(self.net.state_dict(), save_path)
+  File "C:\Users\aleks\milica\master_tuw\master_tuw\2_semester\dl_in_vc\DL_assignment1\dlvc_ss25-main\assignments\assignment_1\.venv\Lib\site-packages\torch\serialization.py", line 943, in save
+    with _open_zipfile_writer(f) as opened_zipfile:
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aleks\milica\master_tuw\master_tuw\2_semester\dl_in_vc\DL_assignment1\dlvc_ss25-main\assignments\assignment_1\.venv\Lib\site-packages\torch\serialization.py", line 810, in _open_zipfile_writer
+    return container(name_or_buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aleks\milica\master_tuw\master_tuw\2_semester\dl_in_vc\DL_assignment1\dlvc_ss25-main\assignments\assignment_1\.venv\Lib\site-packages\torch\serialization.py", line 781, in __init__
+    super().__init__(torch._C.PyTorchFileWriter(self.name, _compute_crc32))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Parent directory ./saved_models/vit_model/default/ does not exist.

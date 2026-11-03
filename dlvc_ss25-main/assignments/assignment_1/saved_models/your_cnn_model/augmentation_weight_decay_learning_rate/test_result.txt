@@ -1,0 +1,16 @@
+
+----- Test Results -----
+Test Loss: 0.5647
+
+Test Accuracy: 0.8072
+Test Per-Class Accuracy: 0.8072
+Accuracy for class: plane  is 86.20
+Accuracy for class: car    is 94.60
+Accuracy for class: bird   is 74.80
+Accuracy for class: cat    is 66.70
+Accuracy for class: deer   is 78.90
+Accuracy for class: dog    is 65.80
+Accuracy for class: frog   is 86.70
+Accuracy for class: horse  is 79.30
+Accuracy for class: ship   is 93.10
+Accuracy for class: truck  is 81.10

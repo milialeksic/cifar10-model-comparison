@@ -1,0 +1,19 @@
+{"time":"2025-05-09T04:23:30.0936652+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"C:\\Users\\aleks\\milica\\master_tuw\\master_tuw\\2_semester\\dl_in_vc\\DL_assignment1\\dlvc_ss25-main\\assignments\\assignment_1\\wandb\\run-20250509_042330-c4nqabrn\\logs\\debug-core.log"}
+{"time":"2025-05-09T04:23:30.8872918+02:00","level":"INFO","msg":"created new stream","id":"c4nqabrn"}
+{"time":"2025-05-09T04:23:30.8872918+02:00","level":"INFO","msg":"stream: started","id":"c4nqabrn"}
+{"time":"2025-05-09T04:23:30.8872918+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"c4nqabrn"}
+{"time":"2025-05-09T04:23:30.8872918+02:00","level":"INFO","msg":"handler: started","stream_id":"c4nqabrn"}
+{"time":"2025-05-09T04:23:30.8872918+02:00","level":"INFO","msg":"sender: started","stream_id":"c4nqabrn"}
+{"time":"2025-05-09T04:23:31.1645231+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-09T04:50:05.7938006+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/e12332263-tu-wien/DL_for_VC/c4nqabrn/file_stream\": read tcp 10.10.6.155:62644->35.186.228.49:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."}
+{"time":"2025-05-09T05:20:50.7424469+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/e12332263-tu-wien/DL_for_VC/c4nqabrn/file_stream\": read tcp 10.10.6.155:63222->35.186.228.49:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."}
+{"time":"2025-05-09T07:14:05.7573143+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/e12332263-tu-wien/DL_for_VC/c4nqabrn/file_stream\": read tcp 10.10.6.155:65399->35.186.228.49:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."}
+{"time":"2025-05-09T07:16:31.9451314+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-09T07:16:31.945807+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-09T07:16:32.9540454+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.6120295,"progress":"195.6KB/195.6KB"}],"total_operations":1}}
+{"time":"2025-05-09T07:16:33.1921289+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-09T07:16:34.0838012+02:00","level":"INFO","msg":"stream: closing","id":"c4nqabrn"}
+{"time":"2025-05-09T07:16:34.0838012+02:00","level":"INFO","msg":"handler: closed","stream_id":"c4nqabrn"}
+{"time":"2025-05-09T07:16:34.0838012+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"c4nqabrn"}
+{"time":"2025-05-09T07:16:34.0838012+02:00","level":"INFO","msg":"sender: closed","stream_id":"c4nqabrn"}
+{"time":"2025-05-09T07:16:34.0843142+02:00","level":"INFO","msg":"stream: closed","id":"c4nqabrn"}

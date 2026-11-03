@@ -1,0 +1,56 @@
+Testing...: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 79/79 [00:19<00:00,  4.08it/s]
+
+----- Test Results -----
+Test Loss: 0.8214
+
+Test Accuracy: 0.7116
+Test Per-Class Accuracy: 0.7116
+
+Accuracy for class: plane  is 70.50
+Accuracy for class: car    is 80.80
+Accuracy for class: bird   is 62.50
+Accuracy for class: cat    is 44.70
+Accuracy for class: deer   is 66.20
+Accuracy for class: dog    is 65.00
+Accuracy for class: frog   is 78.10
+Accuracy for class: horse  is 76.40
+Accuracy for class: ship   is 86.20
+Accuracy for class: truck  is 81.20
+Using device: cuda:0
+Testing...: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 79/79 [00:17<00:00,  4.46it/s]
+
+----- Test Results -----
+Test Loss: 1.4501
+
+Test Accuracy: 0.6471
+Test Per-Class Accuracy: 0.6471
+
+Accuracy for class: plane  is 69.40
+Accuracy for class: car    is 73.50
+Accuracy for class: bird   is 56.60
+Accuracy for class: cat    is 38.80
+Accuracy for class: deer   is 64.20
+Accuracy for class: dog    is 51.70
+Accuracy for class: frog   is 74.60
+Accuracy for class: horse  is 69.40
+Accuracy for class: ship   is 76.00
+Accuracy for class: truck  is 72.90
+Using device: cuda:0
+Testing...: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 79/79 [00:14<00:00,  5.32it/s]
+
+----- Test Results -----
+Test Loss: 1.3975
+
+Test Accuracy: 0.6534
+Test Per-Class Accuracy: 0.6534
+
+Accuracy for class: plane  is 69.50
+Accuracy for class: car    is 72.20
+Accuracy for class: bird   is 55.90
+Accuracy for class: cat    is 47.90
+Accuracy for class: deer   is 59.10
+Accuracy for class: dog    is 57.40
+Accuracy for class: frog   is 70.40
+Accuracy for class: horse  is 68.60
+Accuracy for class: ship   is 79.30
+Accuracy for class: truck  is 73.10

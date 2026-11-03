@@ -1,0 +1,17 @@
+{"time":"2025-05-09T00:56:14.8173951+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"C:\\Users\\aleks\\milica\\master_tuw\\master_tuw\\2_semester\\dl_in_vc\\DL_assignment1\\dlvc_ss25-main\\assignments\\assignment_1\\wandb\\run-20250509_005614-kw64l7gz\\logs\\debug-core.log"}
+{"time":"2025-05-09T00:56:15.834739+02:00","level":"INFO","msg":"created new stream","id":"kw64l7gz"}
+{"time":"2025-05-09T00:56:15.834739+02:00","level":"INFO","msg":"stream: started","id":"kw64l7gz"}
+{"time":"2025-05-09T00:56:15.834739+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"kw64l7gz"}
+{"time":"2025-05-09T00:56:15.834739+02:00","level":"INFO","msg":"handler: started","stream_id":"kw64l7gz"}
+{"time":"2025-05-09T00:56:15.834739+02:00","level":"INFO","msg":"sender: started","stream_id":"kw64l7gz"}
+{"time":"2025-05-09T00:56:16.2559706+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-09T03:24:21.0034746+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/e12332263-tu-wien/DL_for_VC/kw64l7gz/file_stream\": read tcp 10.10.6.155:60852->35.186.228.49:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."}
+{"time":"2025-05-09T04:23:26.4910409+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-09T04:23:26.4924214+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-09T04:23:27.4991498+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.6335838,"progress":"36.2KB/36.2KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.6335838,"progress":"196.3KB/196.3KB"},{"desc":"uploading config.yaml","runtime_seconds":0.429335,"progress":"543B/543B"}],"total_operations":3}}
+{"time":"2025-05-09T04:23:27.8484595+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-09T04:23:28.8976649+02:00","level":"INFO","msg":"stream: closing","id":"kw64l7gz"}
+{"time":"2025-05-09T04:23:28.8976649+02:00","level":"INFO","msg":"handler: closed","stream_id":"kw64l7gz"}
+{"time":"2025-05-09T04:23:28.8976649+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"kw64l7gz"}
+{"time":"2025-05-09T04:23:28.9048664+02:00","level":"INFO","msg":"sender: closed","stream_id":"kw64l7gz"}
+{"time":"2025-05-09T04:23:28.9048664+02:00","level":"INFO","msg":"stream: closed","id":"kw64l7gz"}

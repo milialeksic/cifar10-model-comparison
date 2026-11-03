@@ -1,0 +1,16 @@
+{"time":"2025-05-09T11:17:24.6766433+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"D:\\Master\\2025SS\\DL for Visual Computing\\assignment_1\\DL_assignment1\\dlvc_ss25-main\\assignments\\assignment_1\\wandb\\run-20250509_111724-enociphi\\logs\\debug-core.log"}
+{"time":"2025-05-09T11:17:25.1794149+02:00","level":"INFO","msg":"created new stream","id":"enociphi"}
+{"time":"2025-05-09T11:17:25.1794149+02:00","level":"INFO","msg":"stream: started","id":"enociphi"}
+{"time":"2025-05-09T11:17:25.1794149+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"enociphi"}
+{"time":"2025-05-09T11:17:25.1794149+02:00","level":"INFO","msg":"handler: started","stream_id":"enociphi"}
+{"time":"2025-05-09T11:17:25.1794149+02:00","level":"INFO","msg":"sender: started","stream_id":"enociphi"}
+{"time":"2025-05-09T11:17:25.5449887+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-09T11:38:46.8252079+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-09T11:38:46.8252079+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-09T11:38:47.7929986+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-09T11:38:47.8503456+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 35-35, summary, console lines 720-720","runtime_seconds":0.0563438}],"total_operations":1}}
+{"time":"2025-05-09T11:38:48.523973+02:00","level":"INFO","msg":"stream: closing","id":"enociphi"}
+{"time":"2025-05-09T11:38:48.523973+02:00","level":"INFO","msg":"handler: closed","stream_id":"enociphi"}
+{"time":"2025-05-09T11:38:48.523973+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"enociphi"}
+{"time":"2025-05-09T11:38:48.523973+02:00","level":"INFO","msg":"sender: closed","stream_id":"enociphi"}
+{"time":"2025-05-09T11:38:48.523973+02:00","level":"INFO","msg":"stream: closed","id":"enociphi"}
